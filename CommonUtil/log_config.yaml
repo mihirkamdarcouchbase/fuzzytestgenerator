@@ -1,0 +1,47 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(processName)s-%(threadName)s-%(asctime)s-%(levelname)s:::  %(message)s"
+
+handlers:
+  info_file_handler:
+    class: CommonUtil.custom_log_handler.CustomLogHandler
+    level: INFO
+    formatter: simple
+    fname: cplog
+    filters: [infofilter]
+
+  error_file_handler:
+    class: CommonUtil.custom_log_handler.CustomLogHandler
+    level: ERROR
+    formatter: simple
+    fname: cplog
+    filters: [errorfilter]
+
+  critical_file_handler:
+    class: CommonUtil.custom_log_handler.CustomLogHandler
+    level: CRITICAL
+    formatter: simple
+    fname: cplog
+    filters: [criticalfilter]
+
+  steam_handler:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    filters: [infofilter]
+
+filters:
+  errorfilter:
+    (): CommonUtil.custom_log_handler.LoggingErrorFilter
+
+  infofilter:
+    (): CommonUtil.custom_log_handler.LoggingInfoFilter
+
+  criticalfilter:
+    (): CommonUtil.custom_log_handler.LoggingCriticalFilter
+
+root:
+  level: INFO
+  handlers: [info_file_handler, steam_handler, error_file_handler, critical_file_handler]

@@ -1,185 +1,224 @@
+import concurrent.futures
+import logging.config
 import random
 import string
-import logging
-from datetime import datetime
+import threading
+import weakref
+from collections import defaultdict
+from CommonUtil import constants, util
+from couchbase_ops.bucketops import BucketOps
+from schemagenerator import SchemaGenerator
+import copy
 
 
 class DataGenerator:
-    # num_docs
-    # doc_key_length
-    # total_doc_size
-    # num_fields
-    # For each field :
-    ## field_key_length
-    ## field_key_value_length
-    ## field_key_value_data_type
 
     def __init__(self, schema):
-        self.log = self.initialize_logger("data-generator")
+        self.num_docs = schema["num_docs"]
+        self.doc_key_length = schema["doc_key_length"]
+        self.schema_fields = schema["fields"]
+        self.docs = {}
+        self._lock_docs = threading.Lock()
+        self.schema = schema
 
-        #self.generate_doc_map()
-        self.log.info("Schema : ")
-        self.log.info(schema)
-        self.log.info("Schema Fields: ")
-        self.log.info(schema["fields"])
-        self.log.info("Schema Doc Key Length: ")
-        self.log.info(schema['doc_key_length'])
-        self.generate_docs(schema["doc_key_length"], schema["fields"])
-
-    def initialize_logger(self, logger_name):
-        logger = logging.getLogger(logger_name)
-        logger.setLevel(logging.DEBUG)
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-        formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-        ch.setFormatter(formatter)
-        logger.addHandler(ch)
-        timestamp = str(datetime.now().strftime('%Y%m%dT_%H%M%S'))
-        fh = logging.FileHandler("./{0}-{1}.log".format(logger_name, timestamp))
-        fh.setFormatter(formatter)
-        logger.addHandler(fh)
-
-        return logger
-
-    def generate_docs(self, doc_key_length, fields):
+    def get_docs(self, id, random_key=True, key_to_upsert=None):
 
         json_doc = {}
         doc = {}
         skip_field = False
-        doc_key = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in range(doc_key_length))
+
+        if key_to_upsert:
+            doc_key = key_to_upsert
+        elif random_key:
+            doc_key = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in range(self.doc_key_length))
+        else:
+            doc_key = "customer" + str(id)
+
         json_doc[doc_key] = {}
 
-        for field in fields:
+        for field in self.schema_fields:
             field_data_type = field["field_data_type"]
+            field_value = ""
             if field_data_type.lower() == "boolean":
                 field_value = random.choice([True, False])
             elif field_data_type.lower() == "alphanumeric":
-                field_value = ''.join(random.choice(string.letters + string.digits) for _ in range(field["field_value_length"]))
+                field_value = ''.join(
+                    random.choice(string.ascii_letters + string.digits) for _ in range(field["field_value_length"]))
             elif field_data_type.lower() == "integer":
                 range_start = 10 ** (field["field_value_length"] - 1)
                 range_end = (10 ** field["field_value_length"]) - 1
                 field_value = random.randint(range_start, range_end)
             elif field_data_type.lower() == "float":
-                precision = random.randint(1,8)
+                precision = random.randint(1, 8)
                 range_start = 10 ** (field["field_value_length"] - 1)
                 range_end = (10 ** field["field_value_length"]) - 1
                 field_value = round(random.uniform(range_start, range_end), precision)
             elif field_data_type.lower() == "letters":
-                field_value = ''.join(random.choice(string.letters) for _ in range(field["field_value_length"]))
+                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
             elif field_data_type.lower() == "string":
                 field_value = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in
                                       range(field["field_value_length"]))
             elif field_data_type.lower() == "spl_chars":
-                field_value = ''.join(random.choice(string.whitespace + string.punctuation + '!@#$%^&*()_') for _ in range(field["field_value_length"]))
-            #elif field_data_type.lower() == "date":
+                field_value = ''.join(random.choice(string.whitespace + string.punctuation + '!@#$%^&*()_') for _ in
+                                      range(field["field_value_length"]))
+            # elif field_data_type.lower() == "date":
             elif field_data_type.lower() == "null":
                 field_value = None
             elif field_data_type.lower() == "missing":
-                field_value = ''.join(random.choice(string.letters) for _ in range(field["field_value_length"]))
+                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
                 skip_field = random.choice([True, False])
             else:
-                self.log.info("unknown data type")
+                logging.info("unknown data type")
 
             if not skip_field:
                 doc[field["field_name"]] = field_value
 
-        json_doc[doc_key] = doc
+        with self._lock_docs:
+            self.docs[doc_key] = doc
 
-        #self.log.info("JSON Doc:")
-        #self.log.info(json_doc)
+    def generate_docs(self, start, random_key, docs_to_upsert=None):
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10, thread_name_prefix="doc-thread") as executor:
+            if not docs_to_upsert:
+                for index in range(int(self.num_docs)):
+                    executor.submit(self.get_docs, start + index, random_key)
+            else:
+                for index, doc_key in zip(range(int(self.num_docs)), docs_to_upsert.keys()):
+                    executor.submit(self.get_docs, start + index, random_key, doc_key)
 
-        return json_doc
+            executor.shutdown(wait=True)
 
-class SchemaGenerator:
+        return self.docs
 
-    # {
-    #   num_docs:
-    #   doc_key_length:
-    #   total_doc_size:
-    #   fields: {[
-    #       field_name:
-    #       field_data_type:
-    #       field_value_length: ]
-    #    }
-    # }
 
-    schema_map = None
+class KeepRefs(object):
+    __refs__ = defaultdict(list)
 
-    def __init__(self, num_docs):
-        self.log = self.initialize_logger("schema-generator")
-        self.generate_schema(num_docs)
+    def __init__(self):
+        self.__refs__[self.__class__].append(weakref.ref(self)())
 
-    def initialize_logger(self, logger_name):
-        logger = logging.getLogger(logger_name)
-        logger.setLevel(logging.DEBUG)
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-        formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-        ch.setFormatter(formatter)
-        logger.addHandler(ch)
-        timestamp = str(datetime.now().strftime('%Y%m%dT_%H%M%S'))
-        fh = logging.FileHandler("./{0}-{1}.log".format(logger_name, timestamp))
-        fh.setFormatter(formatter)
-        logger.addHandler(fh)
+    @classmethod
+    def get_random_instance(cls):
+        return random.choice(cls.__refs__[cls])
 
-        return logger
+    @classmethod
+    def get_instances(cls):
+        for ins in cls.__refs__[cls]:
+            yield ins
 
-    def get_schema(self):
-        return self.schema_map
 
-    def generate_schema(self, num_docs):
-        # Assume MIN_NUM_FIELDS = 3, MAX_NUM_FIELDS=10
-        MIN_NUM_FIELDS = 3
-        MAX_NUM_FIELDS = 10
-        num_fields = random.randint(MIN_NUM_FIELDS, MAX_NUM_FIELDS)
+class Batch(KeepRefs):
+    def __init__(self, start, end, batch_meta):
+        super(Batch, self).__init__()
+        self.start = start
+        self.end = end
+        self.batch_meta = batch_meta
+        self.items = None
+        self.log = logging.getLogger()
+        self.bucket_ops = BucketOps()
+        self.docs_to_upsert = None
+        self.batch_size = self.batch_meta["schema"]["num_docs"]
 
-        print num_fields
+    def gen_docs(self, docs_to_upsert=None):
+        data_gen = DataGenerator(self.batch_meta["schema"])
+        if docs_to_upsert:
+            self.docs_to_upsert = data_gen.generate_docs(self.start, self.batch_meta["random_key"], docs_to_upsert)
+        else:
+            self.items = data_gen.generate_docs(self.start, self.batch_meta["random_key"], docs_to_upsert)
 
-        field_info_list = []
-        max_doc_size = 0
-        doc_key_length = random.randint(0, 255)
-        for i in xrange(num_fields):
-            # Generate Field Key Length between 3 and 100
-            field_key_length = random.randint(3, 100)
+    def print_batch(self):
+        self.log.info("start {0}, end {1}, num of items {2}".format(self.start, self.end, len(self.items)))
 
-            field_info = {}
-            field_info["field_name"] = ''.join(random.choice(string.lowercase) for x in range(field_key_length))
-            field_info["field_data_type"] = random.choice(["string","float","alphanumeric","boolean","integer","letters","spl_chars", "null", "missing"])
-            field_info["field_value_length"] = random.randint(3, 20971520)
-            field_info_list.append(field_info)
+    def batch_ops(self):
+        try:
+            self.insert_batch()
+        except Exception as e:
+            logging.critical("Failed inserting docs : " + str(len(str(e).split(","))))
 
-            max_doc_size += field_key_length + field_info["field_value_length"]
 
-        self.schema_map = {}
-        self.schema_map["fields"] = field_info_list
-        self.schema_map["max_doc_size"] = max_doc_size
-        self.schema_map["doc_key_length"] = int(doc_key_length)
-        self.schema_map["num_docs"] = num_docs
+        try:
+            docs_to_upsert = self.get_docs_for_ops("UPSERT")
+            self.log.info("Upserting docs : {0}".format(len(docs_to_upsert)))
+            self.upsert_batch(docs_to_upsert)
+        except Exception as e:
+            logging.critical("Failed upserting docs : " + str(len(str(e).split(","))))
 
-        print self.schema_map
+        try:
+            docs_to_delete = self.get_docs_for_ops("DELETE")
+            self.log.info("deleting docs : {0}".format(len(docs_to_delete)))
+            self.delete_batch(docs_to_delete)
+        except Exception as e:
+            logging.critical("Failed deleting docs : " + str(len(str(e).split(","))))
+
+    def get_docs_for_ops(self, ops):
+        num_docs = int(self.batch_meta[ops]["DOCS"] * self.batch_size)
+        tmp_items = {}
+
+        if self.batch_meta[ops]["RANDOM"]:
+            for i in range(num_docs):
+                random_key = random.choice(list(self.items.keys()))
+                tmp_items[random_key] = self.items[random_key]
+        else:
+            tmp_items = copy.deepcopy(self.items)
+            tmp_items = dict(list(tmp_items.items())[:num_docs])
+
+        return tmp_items
+
+    def delete_batch(self, docs_to_delete):
+
+        self.bucket_ops.create_connection(constants.BUCKET_NAME)
+        self.bucket_ops.delete_items(docs_to_delete.keys())
+        #self.bucket_ops.close_connection()
+
+    def upsert_batch(self, docs_to_upsert):
+        self.gen_docs(docs_to_upsert)
+        self.print_batch()
+        self.bucket_ops.create_connection(constants.BUCKET_NAME)
+        self.bucket_ops.upsert_items(self.docs_to_upsert)
+
+    def insert_batch(self):
+        num_docs_with_expiry = int(self.batch_meta["EXPIRY"]["DOCS"] * self.batch_size)
+        expiry_duration = self.batch_meta["EXPIRY"]["TIME"]
+
+        self.gen_docs()
+        self.print_batch()
+        self.bucket_ops.create_connection(constants.BUCKET_NAME)
+        self.bucket_ops.upsert_items(dict(list(self.items.items())[:num_docs_with_expiry]), expiry_duration)
+        self.bucket_ops.upsert_items(dict(list(self.items.items())[num_docs_with_expiry:]))
+        # self.bucket_ops.close_connection()
+
+
+class IntiateDataGenerator:
+
+    def __init__(self, num_items, batch_meta):
+        self.batch_meta = batch_meta
+        self.batch_size = self.batch_meta["schema"]["num_docs"]
+        self.num_items = num_items
+        self.log = util.initialize_logger("data-generator")
+
+    def initiate(self):
+        start_document = 0
+        batches = []
+        for i in range(start_document, self.num_items, self.batch_size):
+            if i + self.batch_size > start_document + self.num_items:
+                end_doc = start_document + self.num_items
+                batch_meta_tmp = copy.deepcopy(self.batch_meta)
+                batch_meta_tmp["schema"]["num_docs"] = end_doc - i
+                batches.append(Batch(i, end_doc, batch_meta_tmp))
+            else:
+                end_doc = i + self.batch_size
+                batches.append(Batch(i, end_doc, self.batch_meta))
+
+        self.log.info("Number of batches : {0}".format(len(batches)))
+
+        with concurrent.futures.ProcessPoolExecutor(max_workers=constants.KV_OPS_PROCESSES) as executor:
+            for ins in Batch.get_instances():
+                executor.submit(ins.batch_ops)
+
+            executor.shutdown(wait=True)
+
 
 if __name__ == '__main__':
-    schema = SchemaGenerator(10).get_schema()
-    DataGenerator(schema)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    schema = SchemaGenerator().get_schema()
+    batch_meta = {"random_key": False, "schema": schema, "UPSERT": {"DOCS": 0.2, "RANDOM": False}, "DELETE":
+        {"DOCS": 0.3, "RANDOM": False}, "EXPIRY": {"DOCS": 0.3, "TIME": 100}}
+    IntiateDataGenerator(10000000, batch_meta).initiate()

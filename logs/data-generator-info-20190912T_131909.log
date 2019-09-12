@@ -1,0 +1,1010 @@
+MainProcess-MainThread-2019-09-12 13:19:09,765-INFO:::  Number of batches : 29412
+ForkProcess-206-MainThread-2019-09-12 13:19:09,816-INFO:::  start 1700, end 2040, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:09,814-INFO:::  start 0, end 340, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:09,817-INFO:::  start 1360, end 1700, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:09,820-INFO:::  start 2040, end 2380, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:09,810-INFO:::  start 680, end 1020, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:09,817-INFO:::  start 1020, end 1360, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:09,809-INFO:::  start 340, end 680, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:09,828-INFO:::  start 2380, end 2720, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:09,854-INFO:::  start 3060, end 3400, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:09,854-INFO:::  start 2720, end 3060, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:09,997-INFO:::  exec_time : 0.09407401084899902
+ForkProcess-205-MainThread-2019-09-12 13:19:10,002-INFO:::  exec_time : 0.09944009780883789
+ForkProcess-206-MainThread-2019-09-12 13:19:10,002-INFO:::  exec_time : 0.10034918785095215
+ForkProcess-208-MainThread-2019-09-12 13:19:10,004-INFO:::  exec_time : 0.09864497184753418
+ForkProcess-203-MainThread-2019-09-12 13:19:10,004-INFO:::  exec_time : 0.09978079795837402
+ForkProcess-204-MainThread-2019-09-12 13:19:10,016-INFO:::  exec_time : 0.11177682876586914
+ForkProcess-201-MainThread-2019-09-12 13:19:10,017-INFO:::  exec_time : 0.11450481414794922
+ForkProcess-202-MainThread-2019-09-12 13:19:10,022-INFO:::  exec_time : 0.11552095413208008
+ForkProcess-207-MainThread-2019-09-12 13:19:10,033-INFO:::  exec_time : 0.03626108169555664
+ForkProcess-207-MainThread-2019-09-12 13:19:10,037-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:10,043-INFO:::  start 2040, end 2380, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:10,058-INFO:::  exec_time : 0.055741310119628906
+ForkProcess-208-MainThread-2019-09-12 13:19:10,055-INFO:::  exec_time : 0.05037498474121094
+ForkProcess-205-MainThread-2019-09-12 13:19:10,061-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:10,059-INFO:::  exec_time : 0.054351091384887695
+ForkProcess-206-MainThread-2019-09-12 13:19:10,059-INFO:::  exec_time : 0.05647015571594238
+ForkProcess-208-MainThread-2019-09-12 13:19:10,058-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:10,062-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:10,062-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:10,069-INFO:::  exec_time : 0.11472773551940918
+ForkProcess-202-MainThread-2019-09-12 13:19:10,070-INFO:::  exec_time : 0.04787588119506836
+ForkProcess-201-MainThread-2019-09-12 13:19:10,070-INFO:::  exec_time : 0.05227375030517578
+ForkProcess-204-MainThread-2019-09-12 13:19:10,070-INFO:::  exec_time : 0.052935123443603516
+ForkProcess-208-MainThread-2019-09-12 13:19:10,064-INFO:::  start 2380, end 2720, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:10,068-INFO:::  start 680, end 1020, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:10,068-INFO:::  start 1360, end 1700, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:10,068-INFO:::  start 1700, end 2040, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:10,073-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:10,073-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:10,073-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:10,079-INFO:::  start 340, end 680, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:10,079-INFO:::  start 0, end 340, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:10,079-INFO:::  start 1020, end 1360, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:10,100-INFO:::  exec_time : 0.029937267303466797
+ForkProcess-209-MainThread-2019-09-12 13:19:10,097-INFO:::  exec_time : 0.1423659324645996
+ForkProcess-210-MainThread-2019-09-12 13:19:10,103-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:10,109-INFO:::  start 3060, end 3400, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:10,131-INFO:::  exec_time : 0.033653974533081055
+ForkProcess-209-MainThread-2019-09-12 13:19:10,134-INFO:::  Upserting docs : 68
+ForkProcess-209-MainThread-2019-09-12 13:19:10,139-INFO:::  start 2720, end 3060, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:10,211-INFO:::  exec_time : 0.0814981460571289
+ForkProcess-208-MainThread-2019-09-12 13:19:10,218-INFO:::  exec_time : 0.06961202621459961
+ForkProcess-207-MainThread-2019-09-12 13:19:10,214-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:10,221-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:10,245-INFO:::  exec_time : 0.08193302154541016
+ForkProcess-203-MainThread-2019-09-12 13:19:10,234-INFO:::  exec_time : 0.08562994003295898
+ForkProcess-203-MainThread-2019-09-12 13:19:10,237-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:10,237-INFO:::  exec_time : 0.07933783531188965
+ForkProcess-206-MainThread-2019-09-12 13:19:10,240-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:10,237-INFO:::  exec_time : 0.08154988288879395
+ForkProcess-205-MainThread-2019-09-12 13:19:10,240-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:10,240-INFO:::  exec_time : 0.07944917678833008
+ForkProcess-201-MainThread-2019-09-12 13:19:10,243-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:10,246-INFO:::  exec_time : 0.08273100852966309
+ForkProcess-202-MainThread-2019-09-12 13:19:10,248-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:10,249-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:10,261-INFO:::  exec_time : 0.07275509834289551
+ForkProcess-210-MainThread-2019-09-12 13:19:10,264-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:10,297-INFO:::  exec_time : 0.07106781005859375
+ForkProcess-209-MainThread-2019-09-12 13:19:10,300-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:10,367-INFO:::  exec_time : 0.07352519035339355
+ForkProcess-208-MainThread-2019-09-12 13:19:10,373-INFO:::  exec_time : 0.07392692565917969
+ForkProcess-207-MainThread-2019-09-12 13:19:10,382-INFO:::  start 3400, end 3740, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:10,387-INFO:::  exec_time : 0.07182168960571289
+ForkProcess-205-MainThread-2019-09-12 13:19:10,390-INFO:::  exec_time : 0.0751948356628418
+ForkProcess-201-MainThread-2019-09-12 13:19:10,391-INFO:::  exec_time : 0.07496500015258789
+ForkProcess-206-MainThread-2019-09-12 13:19:10,398-INFO:::  exec_time : 0.08275794982910156
+ForkProcess-202-MainThread-2019-09-12 13:19:10,407-INFO:::  exec_time : 0.08203911781311035
+ForkProcess-208-MainThread-2019-09-12 13:19:10,388-INFO:::  start 3740, end 4080, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:10,411-INFO:::  exec_time : 0.08656430244445801
+ForkProcess-210-MainThread-2019-09-12 13:19:10,411-INFO:::  exec_time : 0.07764506340026855
+ForkProcess-203-MainThread-2019-09-12 13:19:10,402-INFO:::  start 4080, end 4420, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:10,406-INFO:::  start 4420, end 4760, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:10,406-INFO:::  start 4760, end 5100, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:10,414-INFO:::  start 5100, end 5440, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:10,422-INFO:::  start 5440, end 5780, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:10,427-INFO:::  start 5780, end 6120, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:10,427-INFO:::  start 6120, end 6460, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:10,465-INFO:::  exec_time : 0.07854223251342773
+ForkProcess-207-MainThread-2019-09-12 13:19:10,551-INFO:::  exec_time : 0.0838019847869873
+ForkProcess-208-MainThread-2019-09-12 13:19:10,556-INFO:::  exec_time : 0.08862996101379395
+ForkProcess-205-MainThread-2019-09-12 13:19:10,569-INFO:::  exec_time : 0.08966302871704102
+ForkProcess-206-MainThread-2019-09-12 13:19:10,576-INFO:::  exec_time : 0.08882880210876465
+ForkProcess-201-MainThread-2019-09-12 13:19:10,577-INFO:::  exec_time : 0.09546995162963867
+ForkProcess-203-MainThread-2019-09-12 13:19:10,577-INFO:::  exec_time : 0.09938287734985352
+ForkProcess-207-MainThread-2019-09-12 13:19:10,595-INFO:::  exec_time : 0.0435030460357666
+ForkProcess-207-MainThread-2019-09-12 13:19:10,597-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:10,600-INFO:::  exec_time : 0.044251203536987305
+ForkProcess-208-MainThread-2019-09-12 13:19:10,603-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:10,600-INFO:::  exec_time : 0.09209084510803223
+ForkProcess-202-MainThread-2019-09-12 13:19:10,601-INFO:::  exec_time : 0.09781813621520996
+ForkProcess-205-MainThread-2019-09-12 13:19:10,610-INFO:::  exec_time : 0.04067516326904297
+ForkProcess-205-MainThread-2019-09-12 13:19:10,612-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:10,613-INFO:::  exec_time : 0.03625082969665527
+ForkProcess-206-MainThread-2019-09-12 13:19:10,615-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:10,616-INFO:::  start 4420, end 4760, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:10,618-INFO:::  exec_time : 0.04118609428405762
+ForkProcess-201-MainThread-2019-09-12 13:19:10,621-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:10,619-INFO:::  exec_time : 0.04192304611206055
+ForkProcess-203-MainThread-2019-09-12 13:19:10,621-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:10,623-INFO:::  exec_time : 0.1046590805053711
+ForkProcess-208-MainThread-2019-09-12 13:19:10,608-INFO:::  start 3740, end 4080, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:10,635-INFO:::  exec_time : 0.03377795219421387
+ForkProcess-202-MainThread-2019-09-12 13:19:10,638-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:10,640-INFO:::  exec_time : 0.03922295570373535
+ForkProcess-204-MainThread-2019-09-12 13:19:10,642-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:10,625-INFO:::  start 4760, end 5100, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:10,602-INFO:::  start 3400, end 3740, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:10,626-INFO:::  start 4080, end 4420, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:10,619-INFO:::  start 5100, end 5440, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:10,658-INFO:::  exec_time : 0.03495001792907715
+ForkProcess-210-MainThread-2019-09-12 13:19:10,660-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:10,642-INFO:::  start 5440, end 5780, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:10,646-INFO:::  start 6120, end 6460, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:10,664-INFO:::  start 5780, end 6120, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:10,781-INFO:::  exec_time : 0.08068490028381348
+ForkProcess-208-MainThread-2019-09-12 13:19:10,784-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:10,804-INFO:::  exec_time : 0.08184385299682617
+ForkProcess-203-MainThread-2019-09-12 13:19:10,807-INFO:::  exec_time : 0.0853571891784668
+ForkProcess-206-MainThread-2019-09-12 13:19:10,809-INFO:::  exec_time : 0.08362221717834473
+ForkProcess-205-MainThread-2019-09-12 13:19:10,806-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:10,812-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:10,810-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:10,814-INFO:::  exec_time : 0.08793425559997559
+ForkProcess-201-MainThread-2019-09-12 13:19:10,816-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:10,816-INFO:::  exec_time : 0.09201693534851074
+ForkProcess-207-MainThread-2019-09-12 13:19:10,818-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:10,824-INFO:::  exec_time : 0.08230185508728027
+ForkProcess-202-MainThread-2019-09-12 13:19:10,826-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:10,829-INFO:::  exec_time : 0.08748793601989746
+ForkProcess-204-MainThread-2019-09-12 13:19:10,831-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:10,847-INFO:::  exec_time : 0.08343863487243652
+ForkProcess-210-MainThread-2019-09-12 13:19:10,849-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:10,958-INFO:::  exec_time : 0.08880114555358887
+ForkProcess-205-MainThread-2019-09-12 13:19:10,969-INFO:::  exec_time : 0.07981395721435547
+ForkProcess-203-MainThread-2019-09-12 13:19:10,995-INFO:::  exec_time : 0.09049224853515625
+ForkProcess-206-MainThread-2019-09-12 13:19:10,995-INFO:::  exec_time : 0.09068489074707031
+ForkProcess-201-MainThread-2019-09-12 13:19:11,000-INFO:::  exec_time : 0.09363102912902832
+ForkProcess-202-MainThread-2019-09-12 13:19:11,001-INFO:::  exec_time : 0.08770012855529785
+ForkProcess-204-MainThread-2019-09-12 13:19:11,019-INFO:::  exec_time : 0.10065507888793945
+ForkProcess-207-MainThread-2019-09-12 13:19:11,019-INFO:::  exec_time : 0.09612298011779785
+ForkProcess-210-MainThread-2019-09-12 13:19:11,030-INFO:::  exec_time : 0.09586691856384277
+ForkProcess-203-MainThread-2019-09-12 13:19:11,117-INFO:::  start 7480, end 7820, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:11,119-INFO:::  start 9520, end 9860, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:11,121-INFO:::  start 6800, end 7140, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:11,121-INFO:::  start 7820, end 8160, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:11,122-INFO:::  start 8840, end 9180, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:11,120-INFO:::  start 8160, end 8500, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:11,123-INFO:::  start 7140, end 7480, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:11,123-INFO:::  start 6460, end 6800, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:11,123-INFO:::  start 9180, end 9520, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:11,122-INFO:::  start 8500, end 8840, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:11,314-INFO:::  exec_time : 0.09328579902648926
+ForkProcess-210-MainThread-2019-09-12 13:19:11,320-INFO:::  exec_time : 0.10563111305236816
+ForkProcess-203-MainThread-2019-09-12 13:19:11,320-INFO:::  exec_time : 0.09940195083618164
+ForkProcess-206-MainThread-2019-09-12 13:19:11,321-INFO:::  exec_time : 0.09984207153320312
+ForkProcess-208-MainThread-2019-09-12 13:19:11,321-INFO:::  exec_time : 0.10028696060180664
+ForkProcess-209-MainThread-2019-09-12 13:19:11,344-INFO:::  exec_time : 0.11719393730163574
+ForkProcess-201-MainThread-2019-09-12 13:19:11,344-INFO:::  exec_time : 0.11760306358337402
+ForkProcess-202-MainThread-2019-09-12 13:19:11,363-INFO:::  exec_time : 0.13372373580932617
+ForkProcess-203-MainThread-2019-09-12 13:19:11,379-INFO:::  exec_time : 0.05811905860900879
+ForkProcess-203-MainThread-2019-09-12 13:19:11,383-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:11,380-INFO:::  exec_time : 0.05903911590576172
+ForkProcess-206-MainThread-2019-09-12 13:19:11,384-INFO:::  Upserting docs : 68
+ForkProcess-209-MainThread-2019-09-12 13:19:11,385-INFO:::  exec_time : 0.040633201599121094
+ForkProcess-209-MainThread-2019-09-12 13:19:11,389-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:11,392-INFO:::  exec_time : 0.07704281806945801
+ForkProcess-210-MainThread-2019-09-12 13:19:11,390-INFO:::  exec_time : 0.06970596313476562
+ForkProcess-210-MainThread-2019-09-12 13:19:11,393-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:11,395-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:11,398-INFO:::  start 9520, end 9860, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:11,400-INFO:::  start 8840, end 9180, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:11,389-INFO:::  start 7480, end 7820, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:11,410-INFO:::  exec_time : 0.06533598899841309
+ForkProcess-206-MainThread-2019-09-12 13:19:11,390-INFO:::  start 7820, end 8160, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:11,394-INFO:::  start 6460, end 6800, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:11,413-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:11,418-INFO:::  start 8160, end 8500, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:11,436-INFO:::  exec_time : 0.20182204246520996
+ForkProcess-205-MainThread-2019-09-12 13:19:11,477-INFO:::  exec_time : 0.04021286964416504
+ForkProcess-205-MainThread-2019-09-12 13:19:11,482-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:11,487-INFO:::  start 7140, end 7480, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:11,597-INFO:::  exec_time : 0.3628368377685547
+ForkProcess-203-MainThread-2019-09-12 13:19:11,582-INFO:::  exec_time : 0.08776497840881348
+ForkProcess-203-MainThread-2019-09-12 13:19:11,585-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:11,612-INFO:::  exec_time : 0.10717105865478516
+ForkProcess-208-MainThread-2019-09-12 13:19:11,610-INFO:::  exec_time : 0.2889728546142578
+ForkProcess-208-MainThread-2019-09-12 13:19:11,614-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:11,613-INFO:::  exec_time : 0.2486732006072998
+ForkProcess-202-MainThread-2019-09-12 13:19:11,617-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:11,621-INFO:::  start 6800, end 7140, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:11,612-INFO:::  exec_time : 0.10734891891479492
+ForkProcess-201-MainThread-2019-09-12 13:19:11,616-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:11,616-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:11,612-INFO:::  exec_time : 0.10689830780029297
+ForkProcess-206-MainThread-2019-09-12 13:19:11,612-INFO:::  exec_time : 0.10677289962768555
+ForkProcess-207-MainThread-2019-09-12 13:19:11,612-INFO:::  exec_time : 0.10566997528076172
+ForkProcess-209-MainThread-2019-09-12 13:19:11,616-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:11,616-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:11,617-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:11,623-INFO:::  start 8500, end 8840, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:11,637-INFO:::  exec_time : 0.038455963134765625
+ForkProcess-204-MainThread-2019-09-12 13:19:11,640-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:11,645-INFO:::  start 9180, end 9520, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:11,673-INFO:::  exec_time : 0.0943460464477539
+ForkProcess-205-MainThread-2019-09-12 13:19:11,678-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:11,764-INFO:::  exec_time : 0.08765268325805664
+ForkProcess-201-MainThread-2019-09-12 13:19:11,792-INFO:::  exec_time : 0.09352779388427734
+ForkProcess-207-MainThread-2019-09-12 13:19:11,807-INFO:::  exec_time : 0.08827900886535645
+ForkProcess-209-MainThread-2019-09-12 13:19:11,810-INFO:::  exec_time : 0.09120798110961914
+ForkProcess-206-MainThread-2019-09-12 13:19:11,810-INFO:::  exec_time : 0.09115910530090332
+ForkProcess-210-MainThread-2019-09-12 13:19:11,813-INFO:::  exec_time : 0.09468412399291992
+ForkProcess-203-MainThread-2019-09-12 13:19:11,784-INFO:::  start 9860, end 10200, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:11,813-INFO:::  start 10200, end 10540, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:11,812-INFO:::  exec_time : 0.09304118156433105
+ForkProcess-208-MainThread-2019-09-12 13:19:11,815-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:11,818-INFO:::  exec_time : 0.09887003898620605
+ForkProcess-202-MainThread-2019-09-12 13:19:11,821-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:11,830-INFO:::  start 11220, end 11560, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:11,828-INFO:::  start 10540, end 10880, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:11,834-INFO:::  start 11560, end 11900, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:11,830-INFO:::  start 10880, end 11220, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:11,853-INFO:::  exec_time : 0.0867302417755127
+ForkProcess-204-MainThread-2019-09-12 13:19:11,856-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:11,891-INFO:::  exec_time : 0.08290696144104004
+ForkProcess-205-MainThread-2019-09-12 13:19:11,912-INFO:::  start 11900, end 12240, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:11,989-INFO:::  exec_time : 0.09711265563964844
+ForkProcess-208-MainThread-2019-09-12 13:19:12,012-INFO:::  exec_time : 0.08801102638244629
+ForkProcess-202-MainThread-2019-09-12 13:19:12,013-INFO:::  exec_time : 0.08850407600402832
+ForkProcess-203-MainThread-2019-09-12 13:19:12,025-INFO:::  exec_time : 0.035298824310302734
+ForkProcess-203-MainThread-2019-09-12 13:19:12,028-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:12,025-INFO:::  exec_time : 0.09986591339111328
+ForkProcess-204-MainThread-2019-09-12 13:19:12,054-INFO:::  exec_time : 0.09018301963806152
+ForkProcess-207-MainThread-2019-09-12 13:19:12,053-INFO:::  exec_time : 0.09624123573303223
+ForkProcess-210-MainThread-2019-09-12 13:19:12,056-INFO:::  exec_time : 0.09871530532836914
+ForkProcess-209-MainThread-2019-09-12 13:19:12,063-INFO:::  exec_time : 0.10016584396362305
+ForkProcess-201-MainThread-2019-09-12 13:19:12,067-INFO:::  exec_time : 0.041641950607299805
+ForkProcess-206-MainThread-2019-09-12 13:19:12,067-INFO:::  exec_time : 0.10361123085021973
+ForkProcess-201-MainThread-2019-09-12 13:19:12,070-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:12,033-INFO:::  start 12240, end 12580, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:12,034-INFO:::  start 9860, end 10200, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:12,033-INFO:::  start 12580, end 12920, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:12,089-INFO:::  exec_time : 0.033222198486328125
+ForkProcess-210-MainThread-2019-09-12 13:19:12,092-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:12,095-INFO:::  exec_time : 0.04152822494506836
+ForkProcess-207-MainThread-2019-09-12 13:19:12,099-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:12,074-INFO:::  start 12920, end 13260, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:12,076-INFO:::  start 10200, end 10540, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:12,101-INFO:::  exec_time : 0.08884882926940918
+ForkProcess-207-MainThread-2019-09-12 13:19:12,105-INFO:::  start 10540, end 10880, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:12,105-INFO:::  exec_time : 0.04074978828430176
+ForkProcess-206-MainThread-2019-09-12 13:19:12,105-INFO:::  exec_time : 0.037596940994262695
+ForkProcess-209-MainThread-2019-09-12 13:19:12,108-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:12,108-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:12,113-INFO:::  start 11220, end 11560, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:12,098-INFO:::  start 11560, end 11900, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:12,113-INFO:::  start 10880, end 11220, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:12,137-INFO:::  exec_time : 0.03503680229187012
+ForkProcess-205-MainThread-2019-09-12 13:19:12,141-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:12,146-INFO:::  start 11900, end 12240, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:12,257-INFO:::  exec_time : 0.10422611236572266
+ForkProcess-202-MainThread-2019-09-12 13:19:12,257-INFO:::  exec_time : 0.1042172908782959
+ForkProcess-203-MainThread-2019-09-12 13:19:12,254-INFO:::  exec_time : 0.1006002426147461
+ForkProcess-203-MainThread-2019-09-12 13:19:12,258-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:12,297-INFO:::  exec_time : 0.12052083015441895
+ForkProcess-202-MainThread-2019-09-12 13:19:12,303-INFO:::  exec_time : 0.04556012153625488
+ForkProcess-202-MainThread-2019-09-12 13:19:12,306-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:12,304-INFO:::  exec_time : 0.04561305046081543
+ForkProcess-208-MainThread-2019-09-12 13:19:12,307-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:12,290-INFO:::  exec_time : 0.11345481872558594
+ForkProcess-201-MainThread-2019-09-12 13:19:12,293-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:12,313-INFO:::  start 12240, end 12580, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:12,294-INFO:::  exec_time : 0.09232401847839355
+ForkProcess-206-MainThread-2019-09-12 13:19:12,297-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:12,298-INFO:::  exec_time : 0.11030387878417969
+ForkProcess-210-MainThread-2019-09-12 13:19:12,301-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:12,307-INFO:::  exec_time : 0.09814310073852539
+ForkProcess-209-MainThread-2019-09-12 13:19:12,310-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:12,313-INFO:::  start 12580, end 12920, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:12,303-INFO:::  exec_time : 0.1070089340209961
+ForkProcess-207-MainThread-2019-09-12 13:19:12,307-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:12,343-INFO:::  exec_time : 0.08029603958129883
+ForkProcess-205-MainThread-2019-09-12 13:19:12,346-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:12,436-INFO:::  exec_time : 0.13835811614990234
+ForkProcess-204-MainThread-2019-09-12 13:19:12,440-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:12,445-INFO:::  start 12920, end 13260, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:12,475-INFO:::  exec_time : 0.08577919006347656
+ForkProcess-202-MainThread-2019-09-12 13:19:12,478-INFO:::  exec_time : 0.08867311477661133
+ForkProcess-201-MainThread-2019-09-12 13:19:12,482-INFO:::  exec_time : 0.10707306861877441
+ForkProcess-203-MainThread-2019-09-12 13:19:12,489-INFO:::  exec_time : 0.14667081832885742
+ForkProcess-210-MainThread-2019-09-12 13:19:12,489-INFO:::  exec_time : 0.09361410140991211
+ForkProcess-202-MainThread-2019-09-12 13:19:12,481-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:12,495-INFO:::  start 13260, end 13600, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:12,492-INFO:::  exec_time : 0.08564615249633789
+ForkProcess-201-MainThread-2019-09-12 13:19:12,502-INFO:::  start 13600, end 13940, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:12,515-INFO:::  exec_time : 0.07410287857055664
+ForkProcess-203-MainThread-2019-09-12 13:19:12,510-INFO:::  start 13940, end 14280, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:12,510-INFO:::  start 14280, end 14620, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:12,495-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:12,544-INFO:::  exec_time : 0.07113480567932129
+ForkProcess-206-MainThread-2019-09-12 13:19:12,546-INFO:::  exec_time : 0.07437300682067871
+ForkProcess-205-MainThread-2019-09-12 13:19:12,535-INFO:::  start 14620, end 14960, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:12,567-INFO:::  start 15300, end 15640, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:12,565-INFO:::  start 14960, end 15300, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:12,670-INFO:::  exec_time : 0.09424996376037598
+ForkProcess-203-MainThread-2019-09-12 13:19:12,697-INFO:::  exec_time : 0.1003730297088623
+ForkProcess-209-MainThread-2019-09-12 13:19:12,708-INFO:::  exec_time : 0.0373539924621582
+ForkProcess-209-MainThread-2019-09-12 13:19:12,712-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:12,723-INFO:::  exec_time : 0.09666609764099121
+ForkProcess-209-MainThread-2019-09-12 13:19:12,718-INFO:::  start 13260, end 13600, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:12,732-INFO:::  exec_time : 0.034014225006103516
+ForkProcess-203-MainThread-2019-09-12 13:19:12,735-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:12,739-INFO:::  exec_time : 0.17579126358032227
+ForkProcess-204-MainThread-2019-09-12 13:19:12,732-INFO:::  exec_time : 0.21438884735107422
+ForkProcess-204-MainThread-2019-09-12 13:19:12,735-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:12,741-INFO:::  start 13940, end 14280, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:12,757-INFO:::  exec_time : 0.03387093544006348
+ForkProcess-205-MainThread-2019-09-12 13:19:12,760-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:12,766-INFO:::  start 14620, end 14960, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:12,758-INFO:::  start 15640, end 15980, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:12,773-INFO:::  exec_time : 0.18286490440368652
+ForkProcess-208-MainThread-2019-09-12 13:19:12,780-INFO:::  exec_time : 0.19022822380065918
+ForkProcess-207-MainThread-2019-09-12 13:19:12,789-INFO:::  exec_time : 0.13361811637878418
+ForkProcess-201-MainThread-2019-09-12 13:19:12,811-INFO:::  exec_time : 0.037596940994262695
+ForkProcess-201-MainThread-2019-09-12 13:19:12,814-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:12,801-INFO:::  start 15980, end 16320, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:12,825-INFO:::  exec_time : 0.03538870811462402
+ForkProcess-207-MainThread-2019-09-12 13:19:12,827-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:12,819-INFO:::  start 13600, end 13940, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:12,836-INFO:::  exec_time : 0.0947117805480957
+ForkProcess-207-MainThread-2019-09-12 13:19:12,832-INFO:::  start 14960, end 15300, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:12,876-INFO:::  exec_time : 0.09563589096069336
+ForkProcess-210-MainThread-2019-09-12 13:19:12,876-INFO:::  exec_time : 0.040544986724853516
+ForkProcess-210-MainThread-2019-09-12 13:19:12,880-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:12,886-INFO:::  start 14280, end 14620, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:12,909-INFO:::  exec_time : 0.08424186706542969
+ForkProcess-206-MainThread-2019-09-12 13:19:12,914-INFO:::  exec_time : 0.0371248722076416
+ForkProcess-209-MainThread-2019-09-12 13:19:12,897-INFO:::  exec_time : 0.08895611763000488
+ForkProcess-206-MainThread-2019-09-12 13:19:12,917-INFO:::  Upserting docs : 68
+ForkProcess-209-MainThread-2019-09-12 13:19:12,901-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:12,922-INFO:::  start 15300, end 15640, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:12,920-INFO:::  exec_time : 0.09035491943359375
+ForkProcess-204-MainThread-2019-09-12 13:19:12,930-INFO:::  start 16320, end 16660, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:12,924-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:12,959-INFO:::  exec_time : 0.11335587501525879
+ForkProcess-205-MainThread-2019-09-12 13:19:12,966-INFO:::  exec_time : 0.11277604103088379
+ForkProcess-205-MainThread-2019-09-12 13:19:12,969-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:13,006-INFO:::  exec_time : 0.04616713523864746
+ForkProcess-202-MainThread-2019-09-12 13:19:13,010-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:13,028-INFO:::  exec_time : 0.13576126098632812
+ForkProcess-202-MainThread-2019-09-12 13:19:13,016-INFO:::  start 15640, end 15980, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:13,020-INFO:::  exec_time : 0.10219812393188477
+ForkProcess-201-MainThread-2019-09-12 13:19:13,022-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:13,072-INFO:::  exec_time : 0.043856143951416016
+ForkProcess-208-MainThread-2019-09-12 13:19:13,075-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:13,061-INFO:::  exec_time : 0.11702513694763184
+ForkProcess-207-MainThread-2019-09-12 13:19:13,065-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:13,084-INFO:::  exec_time : 0.08382201194763184
+ForkProcess-208-MainThread-2019-09-12 13:19:13,081-INFO:::  start 15980, end 16320, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:13,087-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:13,104-INFO:::  exec_time : 0.0944828987121582
+ForkProcess-203-MainThread-2019-09-12 13:19:13,117-INFO:::  exec_time : 0.09022903442382812
+ForkProcess-204-MainThread-2019-09-12 13:19:13,117-INFO:::  exec_time : 0.08922815322875977
+ForkProcess-206-MainThread-2019-09-12 13:19:13,117-INFO:::  exec_time : 0.08920407295227051
+ForkProcess-206-MainThread-2019-09-12 13:19:13,121-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:13,127-INFO:::  start 16660, end 17000, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:13,138-INFO:::  start 17000, end 17340, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:13,161-INFO:::  exec_time : 0.09580278396606445
+ForkProcess-204-MainThread-2019-09-12 13:19:13,165-INFO:::  exec_time : 0.04701685905456543
+ForkProcess-204-MainThread-2019-09-12 13:19:13,168-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:13,173-INFO:::  start 16320, end 16660, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:13,182-INFO:::  start 17340, end 17680, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:13,218-INFO:::  exec_time : 0.09999370574951172
+ForkProcess-202-MainThread-2019-09-12 13:19:13,218-INFO:::  exec_time : 0.10050797462463379
+ForkProcess-202-MainThread-2019-09-12 13:19:13,222-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:13,260-INFO:::  exec_time : 0.09522390365600586
+ForkProcess-201-MainThread-2019-09-12 13:19:13,238-INFO:::  start 17680, end 18020, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:13,286-INFO:::  exec_time : 0.11079931259155273
+ForkProcess-210-MainThread-2019-09-12 13:19:13,286-INFO:::  exec_time : 0.1041860580444336
+ForkProcess-208-MainThread-2019-09-12 13:19:13,289-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:13,280-INFO:::  start 18020, end 18360, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:13,313-INFO:::  exec_time : 0.09088826179504395
+ForkProcess-210-MainThread-2019-09-12 13:19:13,304-INFO:::  start 18360, end 18700, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:13,323-INFO:::  exec_time : 0.0924067497253418
+ForkProcess-206-MainThread-2019-09-12 13:19:13,332-INFO:::  start 18700, end 19040, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:13,334-INFO:::  exec_time : 0.08861088752746582
+ForkProcess-209-MainThread-2019-09-12 13:19:13,359-INFO:::  exec_time : 0.03552103042602539
+ForkProcess-209-MainThread-2019-09-12 13:19:13,362-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:13,366-INFO:::  exec_time : 0.031777143478393555
+ForkProcess-203-MainThread-2019-09-12 13:19:13,369-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:13,375-INFO:::  start 17000, end 17340, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:13,359-INFO:::  exec_time : 0.08155393600463867
+ForkProcess-209-MainThread-2019-09-12 13:19:13,369-INFO:::  start 16660, end 17000, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:13,362-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:13,399-INFO:::  exec_time : 0.07738208770751953
+ForkProcess-202-MainThread-2019-09-12 13:19:13,420-INFO:::  start 19040, end 19380, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:13,437-INFO:::  exec_time : 0.0999147891998291
+ForkProcess-207-MainThread-2019-09-12 13:19:13,465-INFO:::  exec_time : 0.09366202354431152
+ForkProcess-208-MainThread-2019-09-12 13:19:13,469-INFO:::  exec_time : 0.09193301200866699
+ForkProcess-201-MainThread-2019-09-12 13:19:13,479-INFO:::  exec_time : 0.0411829948425293
+ForkProcess-201-MainThread-2019-09-12 13:19:13,482-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:13,487-INFO:::  start 17680, end 18020, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:13,489-INFO:::  start 19380, end 19720, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:13,492-INFO:::  exec_time : 0.09260678291320801
+ForkProcess-207-MainThread-2019-09-12 13:19:13,503-INFO:::  exec_time : 0.03769111633300781
+ForkProcess-207-MainThread-2019-09-12 13:19:13,506-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:13,513-INFO:::  exec_time : 0.09606623649597168
+ForkProcess-207-MainThread-2019-09-12 13:19:13,511-INFO:::  start 18020, end 18360, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:13,529-INFO:::  exec_time : 0.03701281547546387
+ForkProcess-210-MainThread-2019-09-12 13:19:13,532-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:13,539-INFO:::  exec_time : 0.08714604377746582
+ForkProcess-209-MainThread-2019-09-12 13:19:13,549-INFO:::  exec_time : 0.08781027793884277
+ForkProcess-206-MainThread-2019-09-12 13:19:13,552-INFO:::  exec_time : 0.03862309455871582
+ForkProcess-206-MainThread-2019-09-12 13:19:13,555-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:13,560-INFO:::  exec_time : 0.08605599403381348
+ForkProcess-210-MainThread-2019-09-12 13:19:13,538-INFO:::  start 18360, end 18700, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:13,552-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:13,559-INFO:::  start 19720, end 20060, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:13,560-INFO:::  start 18700, end 19040, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:13,563-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:13,603-INFO:::  exec_time : 0.09013581275939941
+ForkProcess-202-MainThread-2019-09-12 13:19:13,603-INFO:::  exec_time : 0.09003806114196777
+ForkProcess-205-MainThread-2019-09-12 13:19:13,649-INFO:::  exec_time : 0.04502296447753906
+ForkProcess-205-MainThread-2019-09-12 13:19:13,653-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:13,649-INFO:::  exec_time : 0.04564499855041504
+ForkProcess-202-MainThread-2019-09-12 13:19:13,653-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:13,660-INFO:::  start 19040, end 19380, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:13,659-INFO:::  start 17340, end 17680, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:13,689-INFO:::  exec_time : 0.11218404769897461
+ForkProcess-201-MainThread-2019-09-12 13:19:13,693-INFO:::  exec_time : 0.11585187911987305
+ForkProcess-201-MainThread-2019-09-12 13:19:13,696-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:13,729-INFO:::  exec_time : 0.038829803466796875
+ForkProcess-208-MainThread-2019-09-12 13:19:13,732-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:13,717-INFO:::  exec_time : 0.10886120796203613
+ForkProcess-207-MainThread-2019-09-12 13:19:13,721-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:13,755-INFO:::  exec_time : 0.09280681610107422
+ForkProcess-203-MainThread-2019-09-12 13:19:13,760-INFO:::  exec_time : 0.08559513092041016
+ForkProcess-204-MainThread-2019-09-12 13:19:13,768-INFO:::  exec_time : 0.09366989135742188
+ForkProcess-209-MainThread-2019-09-12 13:19:13,778-INFO:::  start 20060, end 20400, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:13,768-INFO:::  exec_time : 0.09105181694030762
+ForkProcess-208-MainThread-2019-09-12 13:19:13,738-INFO:::  start 19380, end 19720, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:13,771-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:13,755-INFO:::  exec_time : 0.09246110916137695
+ForkProcess-210-MainThread-2019-09-12 13:19:13,759-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:13,806-INFO:::  exec_time : 0.037518978118896484
+ForkProcess-204-MainThread-2019-09-12 13:19:13,809-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:13,815-INFO:::  start 19720, end 20060, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:13,835-INFO:::  start 20400, end 20740, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:13,842-INFO:::  exec_time : 0.08649396896362305
+ForkProcess-202-MainThread-2019-09-12 13:19:13,842-INFO:::  exec_time : 0.08653998374938965
+ForkProcess-205-MainThread-2019-09-12 13:19:13,845-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:13,845-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:13,877-INFO:::  exec_time : 0.08389806747436523
+ForkProcess-207-MainThread-2019-09-12 13:19:13,891-INFO:::  exec_time : 0.08150911331176758
+ForkProcess-206-MainThread-2019-09-12 13:19:13,950-INFO:::  exec_time : 0.08576726913452148
+ForkProcess-201-MainThread-2019-09-12 13:19:13,952-INFO:::  start 20740, end 21080, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:13,959-INFO:::  exec_time : 0.09460186958312988
+ForkProcess-210-MainThread-2019-09-12 13:19:13,963-INFO:::  exec_time : 0.08582305908203125
+ForkProcess-208-MainThread-2019-09-12 13:19:13,960-INFO:::  exec_time : 0.09531116485595703
+ForkProcess-207-MainThread-2019-09-12 13:19:13,964-INFO:::  start 21080, end 21420, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:13,964-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:13,999-INFO:::  exec_time : 0.039666175842285156
+ForkProcess-209-MainThread-2019-09-12 13:19:14,003-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:14,009-INFO:::  exec_time : 0.08144998550415039
+ForkProcess-202-MainThread-2019-09-12 13:19:14,009-INFO:::  exec_time : 0.08153009414672852
+ForkProcess-204-MainThread-2019-09-12 13:19:14,001-INFO:::  exec_time : 0.09678912162780762
+ForkProcess-204-MainThread-2019-09-12 13:19:14,004-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:14,009-INFO:::  start 20060, end 20400, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:14,029-INFO:::  exec_time : 0.10348200798034668
+ForkProcess-206-MainThread-2019-09-12 13:19:14,033-INFO:::  start 21420, end 21760, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,045-INFO:::  start 21760, end 22100, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:14,069-INFO:::  exec_time : 0.03936624526977539
+ForkProcess-203-MainThread-2019-09-12 13:19:14,072-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:14,077-INFO:::  start 20400, end 20740, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:14,090-INFO:::  start 22440, end 22780, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:14,090-INFO:::  start 22100, end 22440, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:14,147-INFO:::  exec_time : 0.09830975532531738
+ForkProcess-208-MainThread-2019-09-12 13:19:14,156-INFO:::  exec_time : 0.0903468132019043
+ForkProcess-207-MainThread-2019-09-12 13:19:14,174-INFO:::  exec_time : 0.11011385917663574
+ForkProcess-204-MainThread-2019-09-12 13:19:14,186-INFO:::  exec_time : 0.09408283233642578
+ForkProcess-201-MainThread-2019-09-12 13:19:14,189-INFO:::  exec_time : 0.04120302200317383
+ForkProcess-201-MainThread-2019-09-12 13:19:14,192-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:14,199-INFO:::  start 20740, end 21080, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:14,212-INFO:::  exec_time : 0.03681468963623047
+ForkProcess-207-MainThread-2019-09-12 13:19:14,215-INFO:::  Upserting docs : 68
+ForkProcess-209-MainThread-2019-09-12 13:19:14,199-INFO:::  exec_time : 0.09375786781311035
+ForkProcess-209-MainThread-2019-09-12 13:19:14,202-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:14,237-INFO:::  exec_time : 0.10083413124084473
+ForkProcess-207-MainThread-2019-09-12 13:19:14,222-INFO:::  start 21080, end 21420, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,251-INFO:::  exec_time : 0.10676884651184082
+ForkProcess-208-MainThread-2019-09-12 13:19:14,236-INFO:::  start 22780, end 23120, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:14,265-INFO:::  start 23120, end 23460, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:14,280-INFO:::  exec_time : 0.0425410270690918
+ForkProcess-206-MainThread-2019-09-12 13:19:14,283-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:14,284-INFO:::  exec_time : 0.09492015838623047
+ForkProcess-202-MainThread-2019-09-12 13:19:14,290-INFO:::  exec_time : 0.10001206398010254
+ForkProcess-210-MainThread-2019-09-12 13:19:14,290-INFO:::  exec_time : 0.038146018981933594
+ForkProcess-210-MainThread-2019-09-12 13:19:14,293-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:14,283-INFO:::  exec_time : 0.10570168495178223
+ForkProcess-203-MainThread-2019-09-12 13:19:14,286-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:14,289-INFO:::  start 21420, end 21760, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,298-INFO:::  start 21760, end 22100, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:14,321-INFO:::  exec_time : 0.03662228584289551
+ForkProcess-205-MainThread-2019-09-12 13:19:14,324-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:14,330-INFO:::  exec_time : 0.039288997650146484
+ForkProcess-202-MainThread-2019-09-12 13:19:14,333-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:14,338-INFO:::  start 22440, end 22780, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:14,329-INFO:::  start 22100, end 22440, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:14,385-INFO:::  exec_time : 0.08202171325683594
+ForkProcess-201-MainThread-2019-09-12 13:19:14,383-INFO:::  exec_time : 0.0827629566192627
+ForkProcess-201-MainThread-2019-09-12 13:19:14,386-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:14,422-INFO:::  exec_time : 0.10365986824035645
+ForkProcess-207-MainThread-2019-09-12 13:19:14,426-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:14,449-INFO:::  exec_time : 0.09580063819885254
+ForkProcess-208-MainThread-2019-09-12 13:19:14,449-INFO:::  exec_time : 0.10291194915771484
+ForkProcess-203-MainThread-2019-09-12 13:19:14,463-INFO:::  exec_time : 0.08792924880981445
+ForkProcess-209-MainThread-2019-09-12 13:19:14,461-INFO:::  start 23460, end 23800, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:14,482-INFO:::  exec_time : 0.03299117088317871
+ForkProcess-204-MainThread-2019-09-12 13:19:14,485-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:14,483-INFO:::  exec_time : 0.0331270694732666
+ForkProcess-208-MainThread-2019-09-12 13:19:14,485-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:14,473-INFO:::  exec_time : 0.09467411041259766
+ForkProcess-206-MainThread-2019-09-12 13:19:14,476-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:14,491-INFO:::  start 22780, end 23120, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,478-INFO:::  exec_time : 0.08934926986694336
+ForkProcess-203-MainThread-2019-09-12 13:19:14,482-INFO:::  start 23800, end 24140, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,481-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:14,490-INFO:::  start 23120, end 23460, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:14,523-INFO:::  exec_time : 0.08894491195678711
+ForkProcess-205-MainThread-2019-09-12 13:19:14,520-INFO:::  exec_time : 0.09450697898864746
+ForkProcess-202-MainThread-2019-09-12 13:19:14,527-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:14,524-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:14,556-INFO:::  exec_time : 0.0829610824584961
+ForkProcess-201-MainThread-2019-09-12 13:19:14,577-INFO:::  start 24140, end 24480, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:14,626-INFO:::  exec_time : 0.08489298820495605
+ForkProcess-207-MainThread-2019-09-12 13:19:14,648-INFO:::  start 24480, end 24820, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:14,666-INFO:::  exec_time : 0.08889579772949219
+ForkProcess-209-MainThread-2019-09-12 13:19:14,667-INFO:::  exec_time : 0.10159897804260254
+ForkProcess-210-MainThread-2019-09-12 13:19:14,674-INFO:::  exec_time : 0.08726191520690918
+ForkProcess-203-MainThread-2019-09-12 13:19:14,675-INFO:::  exec_time : 0.09311389923095703
+ForkProcess-208-MainThread-2019-09-12 13:19:14,675-INFO:::  exec_time : 0.09482717514038086
+ForkProcess-204-MainThread-2019-09-12 13:19:14,674-INFO:::  exec_time : 0.08741307258605957
+ForkProcess-208-MainThread-2019-09-12 13:19:14,678-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:14,677-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:14,687-INFO:::  start 24820, end 25160, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:14,707-INFO:::  exec_time : 0.03963494300842285
+ForkProcess-209-MainThread-2019-09-12 13:19:14,710-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:14,709-INFO:::  exec_time : 0.03405904769897461
+ForkProcess-203-MainThread-2019-09-12 13:19:14,712-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:14,713-INFO:::  exec_time : 0.08704495429992676
+ForkProcess-209-MainThread-2019-09-12 13:19:14,715-INFO:::  start 23460, end 23800, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,695-INFO:::  start 25160, end 25500, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:14,718-INFO:::  exec_time : 0.09219193458557129
+ForkProcess-203-MainThread-2019-09-12 13:19:14,717-INFO:::  start 23800, end 24140, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:14,731-INFO:::  start 25500, end 25840, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:14,737-INFO:::  start 25840, end 26180, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:14,776-INFO:::  exec_time : 0.10237503051757812
+ForkProcess-201-MainThread-2019-09-12 13:19:14,814-INFO:::  exec_time : 0.0369110107421875
+ForkProcess-201-MainThread-2019-09-12 13:19:14,818-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:14,823-INFO:::  start 24140, end 24480, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:14,847-INFO:::  exec_time : 0.07981109619140625
+ForkProcess-207-MainThread-2019-09-12 13:19:14,847-INFO:::  exec_time : 0.10239505767822266
+ForkProcess-208-MainThread-2019-09-12 13:19:14,861-INFO:::  exec_time : 0.09028887748718262
+ForkProcess-204-MainThread-2019-09-12 13:19:14,869-INFO:::  start 26180, end 26520, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:14,882-INFO:::  start 26520, end 26860, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:14,889-INFO:::  exec_time : 0.10301733016967773
+ForkProcess-207-MainThread-2019-09-12 13:19:14,895-INFO:::  exec_time : 0.047328948974609375
+ForkProcess-207-MainThread-2019-09-12 13:19:14,898-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:14,914-INFO:::  exec_time : 0.11634588241577148
+ForkProcess-207-MainThread-2019-09-12 13:19:14,904-INFO:::  start 24480, end 24820, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:14,925-INFO:::  exec_time : 0.035707950592041016
+ForkProcess-206-MainThread-2019-09-12 13:19:14,928-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:14,948-INFO:::  exec_time : 0.12119102478027344
+ForkProcess-203-MainThread-2019-09-12 13:19:14,925-INFO:::  exec_time : 0.10776805877685547
+ForkProcess-209-MainThread-2019-09-12 13:19:14,926-INFO:::  exec_time : 0.11197185516357422
+ForkProcess-203-MainThread-2019-09-12 13:19:14,928-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:14,929-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:14,959-INFO:::  exec_time : 0.11247515678405762
+ForkProcess-210-MainThread-2019-09-12 13:19:14,959-INFO:::  exec_time : 0.045191287994384766
+ForkProcess-210-MainThread-2019-09-12 13:19:14,964-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:14,934-INFO:::  start 24820, end 25160, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:14,970-INFO:::  start 25160, end 25500, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:15,161-INFO:::  exec_time : 0.2120811939239502
+ForkProcess-205-MainThread-2019-09-12 13:19:15,164-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:15,161-INFO:::  exec_time : 0.20128488540649414
+ForkProcess-202-MainThread-2019-09-12 13:19:15,164-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:15,170-INFO:::  start 25840, end 26180, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:15,170-INFO:::  start 25500, end 25840, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:15,422-INFO:::  exec_time : 0.47589111328125
+ForkProcess-201-MainThread-2019-09-12 13:19:15,427-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:15,512-INFO:::  exec_time : 0.3564739227294922
+ForkProcess-204-MainThread-2019-09-12 13:19:15,512-INFO:::  exec_time : 0.35913515090942383
+ForkProcess-204-MainThread-2019-09-12 13:19:15,718-INFO:::  exec_time : 0.20472502708435059
+ForkProcess-208-MainThread-2019-09-12 13:19:15,718-INFO:::  exec_time : 0.2048959732055664
+ForkProcess-204-MainThread-2019-09-12 13:19:15,721-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:15,721-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:15,812-INFO:::  exec_time : 0.38495779037475586
+ForkProcess-209-MainThread-2019-09-12 13:19:15,812-INFO:::  exec_time : 0.3849020004272461
+ForkProcess-208-MainThread-2019-09-12 13:19:15,727-INFO:::  start 26520, end 26860, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:15,717-INFO:::  exec_time : 0.5397281646728516
+ForkProcess-204-MainThread-2019-09-12 13:19:15,727-INFO:::  start 26180, end 26520, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:15,721-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:15,833-INFO:::  start 27200, end 27540, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:15,833-INFO:::  start 26860, end 27200, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:16,012-INFO:::  exec_time : 0.569145917892456
+ForkProcess-210-MainThread-2019-09-12 13:19:16,016-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:16,290-INFO:::  exec_time : 0.86295485496521
+ForkProcess-205-MainThread-2019-09-12 13:19:16,298-INFO:::  exec_time : 0.568122148513794
+ForkProcess-206-MainThread-2019-09-12 13:19:16,294-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:16,302-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:16,310-INFO:::  exec_time : 0.5800950527191162
+ForkProcess-202-MainThread-2019-09-12 13:19:16,314-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:16,492-INFO:::  exec_time : 0.2953379154205322
+ForkProcess-209-MainThread-2019-09-12 13:19:16,654-INFO:::  exec_time : 0.16091513633728027
+ForkProcess-209-MainThread-2019-09-12 13:19:16,658-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:16,666-INFO:::  exec_time : 0.3547971248626709
+ForkProcess-209-MainThread-2019-09-12 13:19:16,663-INFO:::  start 26860, end 27200, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:16,685-INFO:::  start 27540, end 27880, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:16,782-INFO:::  exec_time : 0.289888858795166
+ForkProcess-207-MainThread-2019-09-12 13:19:16,792-INFO:::  exec_time : 0.1603069305419922
+ForkProcess-205-MainThread-2019-09-12 13:19:16,869-INFO:::  exec_time : 0.20824909210205078
+ForkProcess-206-MainThread-2019-09-12 13:19:16,869-INFO:::  exec_time : 0.21489787101745605
+ForkProcess-201-MainThread-2019-09-12 13:19:16,804-INFO:::  start 27880, end 28220, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:16,811-INFO:::  start 28220, end 28560, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:16,888-INFO:::  exec_time : 0.22049808502197266
+ForkProcess-204-MainThread-2019-09-12 13:19:16,868-INFO:::  exec_time : 0.22778701782226562
+ForkProcess-204-MainThread-2019-09-12 13:19:16,872-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:16,890-INFO:::  start 28560, end 28900, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:16,890-INFO:::  start 28900, end 29240, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:16,889-INFO:::  exec_time : 0.22462892532348633
+ForkProcess-208-MainThread-2019-09-12 13:19:16,892-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:16,908-INFO:::  start 29240, end 29580, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:17,173-INFO:::  exec_time : 0.2823350429534912
+ForkProcess-209-MainThread-2019-09-12 13:19:17,157-INFO:::  exec_time : 0.26653409004211426
+ForkProcess-209-MainThread-2019-09-12 13:19:17,161-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:17,352-INFO:::  exec_time : 0.28787875175476074
+ForkProcess-210-MainThread-2019-09-12 13:19:17,497-INFO:::  exec_time : 0.323591947555542
+ForkProcess-210-MainThread-2019-09-12 13:19:17,501-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:17,508-INFO:::  exec_time : 0.4253969192504883
+ForkProcess-204-MainThread-2019-09-12 13:19:17,518-INFO:::  exec_time : 0.4255499839782715
+ForkProcess-203-MainThread-2019-09-12 13:19:17,517-INFO:::  exec_time : 0.16538286209106445
+ForkProcess-203-MainThread-2019-09-12 13:19:17,521-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:17,507-INFO:::  start 27540, end 27880, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:17,524-INFO:::  exec_time : 0.44031381607055664
+ForkProcess-203-MainThread-2019-09-12 13:19:17,526-INFO:::  start 27200, end 27540, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:17,678-INFO:::  exec_time : 0.16976404190063477
+ForkProcess-207-MainThread-2019-09-12 13:19:17,682-INFO:::  Upserting docs : 68
+ForkProcess-204-MainThread-2019-09-12 13:19:17,537-INFO:::  start 29580, end 29920, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:17,698-INFO:::  exec_time : 0.5235288143157959
+ForkProcess-207-MainThread-2019-09-12 13:19:17,688-INFO:::  start 28220, end 28560, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:17,703-INFO:::  exec_time : 0.5225961208343506
+ForkProcess-202-MainThread-2019-09-12 13:19:17,702-INFO:::  exec_time : 0.527515172958374
+ForkProcess-201-MainThread-2019-09-12 13:19:17,703-INFO:::  exec_time : 0.17795991897583008
+ForkProcess-201-MainThread-2019-09-12 13:19:17,706-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:17,706-INFO:::  exec_time : 0.5205361843109131
+ForkProcess-201-MainThread-2019-09-12 13:19:17,712-INFO:::  start 27880, end 28220, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:17,723-INFO:::  start 29920, end 30260, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:17,875-INFO:::  exec_time : 0.1679973602294922
+ForkProcess-205-MainThread-2019-09-12 13:19:17,879-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:17,893-INFO:::  exec_time : 0.19046998023986816
+ForkProcess-202-MainThread-2019-09-12 13:19:17,896-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:17,898-INFO:::  exec_time : 0.19946718215942383
+ForkProcess-206-MainThread-2019-09-12 13:19:17,901-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:17,885-INFO:::  start 28900, end 29240, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:18,035-INFO:::  exec_time : 0.3559119701385498
+ForkProcess-202-MainThread-2019-09-12 13:19:17,902-INFO:::  start 29240, end 29580, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:17,906-INFO:::  start 28560, end 28900, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:18,057-INFO:::  start 30260, end 30600, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:18,250-INFO:::  exec_time : 0.3511652946472168
+ForkProcess-210-MainThread-2019-09-12 13:19:18,239-INFO:::  exec_time : 0.35951805114746094
+ForkProcess-210-MainThread-2019-09-12 13:19:18,244-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:18,249-INFO:::  exec_time : 0.356295108795166
+ForkProcess-203-MainThread-2019-09-12 13:19:18,253-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:18,405-INFO:::  exec_time : 0.36958789825439453
+ForkProcess-207-MainThread-2019-09-12 13:19:18,409-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:18,560-INFO:::  exec_time : 0.3096790313720703
+ForkProcess-204-MainThread-2019-09-12 13:19:18,564-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:18,567-INFO:::  exec_time : 0.48921990394592285
+ForkProcess-201-MainThread-2019-09-12 13:19:18,563-INFO:::  exec_time : 0.4854142665863037
+ForkProcess-201-MainThread-2019-09-12 13:19:18,567-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:18,569-INFO:::  start 29580, end 29920, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:18,761-INFO:::  exec_time : 0.19289422035217285
+ForkProcess-208-MainThread-2019-09-12 13:19:18,764-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:18,749-INFO:::  exec_time : 0.3547477722167969
+ForkProcess-202-MainThread-2019-09-12 13:19:18,754-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:18,762-INFO:::  exec_time : 0.3687899112701416
+ForkProcess-206-MainThread-2019-09-12 13:19:18,760-INFO:::  exec_time : 0.36582493782043457
+ForkProcess-205-MainThread-2019-09-12 13:19:18,766-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:18,764-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:18,770-INFO:::  start 29920, end 30260, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:18,792-INFO:::  exec_time : 0.24500083923339844
+ForkProcess-203-MainThread-2019-09-12 13:19:18,833-INFO:::  exec_time : 0.08303713798522949
+ForkProcess-210-MainThread-2019-09-12 13:19:18,833-INFO:::  exec_time : 0.0916588306427002
+ForkProcess-209-MainThread-2019-09-12 13:19:18,833-INFO:::  exec_time : 0.039544105529785156
+ForkProcess-209-MainThread-2019-09-12 13:19:18,837-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:18,856-INFO:::  exec_time : 0.08498287200927734
+ForkProcess-209-MainThread-2019-09-12 13:19:18,843-INFO:::  start 30260, end 30600, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:18,854-INFO:::  start 30600, end 30940, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:18,854-INFO:::  start 30940, end 31280, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:18,892-INFO:::  exec_time : 0.0970921516418457
+ForkProcess-207-MainThread-2019-09-12 13:19:18,876-INFO:::  start 31280, end 31620, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:18,892-INFO:::  exec_time : 0.09747195243835449
+ForkProcess-204-MainThread-2019-09-12 13:19:18,896-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:18,912-INFO:::  start 31620, end 31960, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:18,953-INFO:::  exec_time : 0.09618425369262695
+ForkProcess-202-MainThread-2019-09-12 13:19:18,960-INFO:::  exec_time : 0.10336780548095703
+ForkProcess-205-MainThread-2019-09-12 13:19:18,960-INFO:::  exec_time : 0.10357403755187988
+ForkProcess-208-MainThread-2019-09-12 13:19:18,963-INFO:::  exec_time : 0.09875202178955078
+ForkProcess-208-MainThread-2019-09-12 13:19:18,966-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:18,975-INFO:::  start 31960, end 32300, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:18,981-INFO:::  start 32300, end 32640, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:18,980-INFO:::  start 32640, end 32980, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:19,058-INFO:::  exec_time : 0.09920620918273926
+ForkProcess-209-MainThread-2019-09-12 13:19:19,045-INFO:::  exec_time : 0.09892702102661133
+ForkProcess-209-MainThread-2019-09-12 13:19:19,049-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:19,067-INFO:::  exec_time : 0.10331606864929199
+ForkProcess-207-MainThread-2019-09-12 13:19:19,069-INFO:::  exec_time : 0.1018822193145752
+ForkProcess-204-MainThread-2019-09-12 13:19:19,096-INFO:::  exec_time : 0.09007406234741211
+ForkProcess-203-MainThread-2019-09-12 13:19:19,096-INFO:::  exec_time : 0.03752589225769043
+ForkProcess-203-MainThread-2019-09-12 13:19:19,100-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:19,110-INFO:::  exec_time : 0.04008197784423828
+ForkProcess-207-MainThread-2019-09-12 13:19:19,113-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:19,110-INFO:::  exec_time : 0.04221296310424805
+ForkProcess-210-MainThread-2019-09-12 13:19:19,113-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:19,118-INFO:::  start 30600, end 30940, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:19,120-INFO:::  exec_time : 0.10739684104919434
+ForkProcess-203-MainThread-2019-09-12 13:19:19,105-INFO:::  start 30940, end 31280, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:19,117-INFO:::  start 32980, end 33320, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:19,118-INFO:::  start 31280, end 31620, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:19,167-INFO:::  exec_time : 0.0465090274810791
+ForkProcess-201-MainThread-2019-09-12 13:19:19,172-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:19,181-INFO:::  exec_time : 0.11199712753295898
+ForkProcess-202-MainThread-2019-09-12 13:19:19,183-INFO:::  exec_time : 0.11339712142944336
+ForkProcess-206-MainThread-2019-09-12 13:19:19,183-INFO:::  exec_time : 0.10338497161865234
+ForkProcess-205-MainThread-2019-09-12 13:19:19,183-INFO:::  exec_time : 0.1033480167388916
+ForkProcess-201-MainThread-2019-09-12 13:19:19,177-INFO:::  start 31620, end 31960, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:19,214-INFO:::  exec_time : 0.0306549072265625
+ForkProcess-206-MainThread-2019-09-12 13:19:19,217-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:19,220-INFO:::  exec_time : 0.036286115646362305
+ForkProcess-202-MainThread-2019-09-12 13:19:19,223-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:19,203-INFO:::  start 33320, end 33660, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:19,225-INFO:::  exec_time : 0.04155611991882324
+ForkProcess-205-MainThread-2019-09-12 13:19:19,228-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:19,234-INFO:::  start 32640, end 32980, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:19,223-INFO:::  start 31960, end 32300, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:19,228-INFO:::  start 32300, end 32640, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:19,251-INFO:::  exec_time : 0.09361910820007324
+ForkProcess-209-MainThread-2019-09-12 13:19:19,272-INFO:::  start 33660, end 34000, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:19,309-INFO:::  exec_time : 0.08955216407775879
+ForkProcess-204-MainThread-2019-09-12 13:19:19,313-INFO:::  exec_time : 0.09642529487609863
+ForkProcess-210-MainThread-2019-09-12 13:19:19,301-INFO:::  exec_time : 0.08169007301330566
+ForkProcess-203-MainThread-2019-09-12 13:19:19,301-INFO:::  exec_time : 0.09106111526489258
+ForkProcess-210-MainThread-2019-09-12 13:19:19,304-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:19,304-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:19,312-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:19,353-INFO:::  exec_time : 0.039624929428100586
+ForkProcess-204-MainThread-2019-09-12 13:19:19,357-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:19,352-INFO:::  exec_time : 0.08896803855895996
+ForkProcess-204-MainThread-2019-09-12 13:19:19,363-INFO:::  start 32980, end 33320, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:19,356-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:19,395-INFO:::  exec_time : 0.10016298294067383
+ForkProcess-208-MainThread-2019-09-12 13:19:19,435-INFO:::  exec_time : 0.03897500038146973
+ForkProcess-208-MainThread-2019-09-12 13:19:19,439-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:19,425-INFO:::  exec_time : 0.10721468925476074
+ForkProcess-206-MainThread-2019-09-12 13:19:19,430-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:19,428-INFO:::  exec_time : 0.09779000282287598
+ForkProcess-202-MainThread-2019-09-12 13:19:19,430-INFO:::  exec_time : 0.1118626594543457
+ForkProcess-205-MainThread-2019-09-12 13:19:19,432-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:19,433-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:19,444-INFO:::  start 33320, end 33660, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:19,464-INFO:::  exec_time : 0.09779620170593262
+ForkProcess-210-MainThread-2019-09-12 13:19:19,500-INFO:::  exec_time : 0.09035801887512207
+ForkProcess-203-MainThread-2019-09-12 13:19:19,500-INFO:::  exec_time : 0.09030389785766602
+ForkProcess-207-MainThread-2019-09-12 13:19:19,501-INFO:::  exec_time : 0.08679080009460449
+ForkProcess-209-MainThread-2019-09-12 13:19:19,502-INFO:::  exec_time : 0.03746199607849121
+ForkProcess-209-MainThread-2019-09-12 13:19:19,506-INFO:::  Upserting docs : 68
+ForkProcess-209-MainThread-2019-09-12 13:19:19,511-INFO:::  start 33660, end 34000, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:19,521-INFO:::  start 34680, end 35020, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:19,520-INFO:::  start 34340, end 34680, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:19,520-INFO:::  start 34000, end 34340, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:19,546-INFO:::  exec_time : 0.07852482795715332
+ForkProcess-204-MainThread-2019-09-12 13:19:19,557-INFO:::  exec_time : 0.09710836410522461
+ForkProcess-204-MainThread-2019-09-12 13:19:19,560-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:19,567-INFO:::  start 35020, end 35360, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:19,634-INFO:::  exec_time : 0.09163284301757812
+ForkProcess-202-MainThread-2019-09-12 13:19:19,634-INFO:::  exec_time : 0.09202814102172852
+ForkProcess-205-MainThread-2019-09-12 13:19:19,639-INFO:::  exec_time : 0.09677624702453613
+ForkProcess-208-MainThread-2019-09-12 13:19:19,648-INFO:::  exec_time : 0.0998079776763916
+ForkProcess-206-MainThread-2019-09-12 13:19:19,656-INFO:::  start 35360, end 35700, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:19,651-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:19,656-INFO:::  start 35700, end 36040, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:19,659-INFO:::  start 36040, end 36380, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:19,717-INFO:::  exec_time : 0.1030731201171875
+ForkProcess-203-MainThread-2019-09-12 13:19:19,720-INFO:::  exec_time : 0.09415483474731445
+ForkProcess-209-MainThread-2019-09-12 13:19:19,713-INFO:::  exec_time : 0.09957289695739746
+ForkProcess-209-MainThread-2019-09-12 13:19:19,718-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:19,729-INFO:::  exec_time : 0.10297918319702148
+ForkProcess-204-MainThread-2019-09-12 13:19:19,750-INFO:::  exec_time : 0.09092402458190918
+ForkProcess-207-MainThread-2019-09-12 13:19:19,760-INFO:::  exec_time : 0.042730093002319336
+ForkProcess-207-MainThread-2019-09-12 13:19:19,763-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:19,760-INFO:::  exec_time : 0.03982400894165039
+ForkProcess-203-MainThread-2019-09-12 13:19:19,763-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:19,762-INFO:::  exec_time : 0.03228306770324707
+ForkProcess-210-MainThread-2019-09-12 13:19:19,765-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:19,769-INFO:::  exec_time : 0.10182595252990723
+ForkProcess-207-MainThread-2019-09-12 13:19:19,769-INFO:::  start 34680, end 35020, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:19,769-INFO:::  start 34000, end 34340, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:19,771-INFO:::  start 34340, end 34680, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:19,773-INFO:::  start 36380, end 36720, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:19,804-INFO:::  exec_time : 0.033815860748291016
+ForkProcess-201-MainThread-2019-09-12 13:19:19,807-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:19,813-INFO:::  start 35020, end 35360, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:19,839-INFO:::  exec_time : 0.08525824546813965
+ForkProcess-206-MainThread-2019-09-12 13:19:19,839-INFO:::  exec_time : 0.08939313888549805
+ForkProcess-202-MainThread-2019-09-12 13:19:19,850-INFO:::  exec_time : 0.0892648696899414
+ForkProcess-205-MainThread-2019-09-12 13:19:19,856-INFO:::  exec_time : 0.09628915786743164
+ForkProcess-208-MainThread-2019-09-12 13:19:19,860-INFO:::  start 36720, end 37060, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:19,881-INFO:::  exec_time : 0.04091024398803711
+ForkProcess-206-MainThread-2019-09-12 13:19:19,884-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:19,883-INFO:::  exec_time : 0.0322878360748291
+ForkProcess-202-MainThread-2019-09-12 13:19:19,886-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:19,890-INFO:::  start 35360, end 35700, num of items 340
+ForkProcess-205-MainThread-2019-09-12 13:19:19,891-INFO:::  exec_time : 0.034275054931640625
+ForkProcess-202-MainThread-2019-09-12 13:19:19,891-INFO:::  start 35700, end 36040, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:19,899-INFO:::  exec_time : 0.08696985244750977
+ForkProcess-205-MainThread-2019-09-12 13:19:19,894-INFO:::  Upserting docs : 68
+ForkProcess-205-MainThread-2019-09-12 13:19:19,900-INFO:::  start 36040, end 36380, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:19,919-INFO:::  start 37060, end 37400, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:19,958-INFO:::  exec_time : 0.09420299530029297
+ForkProcess-207-MainThread-2019-09-12 13:19:19,945-INFO:::  exec_time : 0.08495903015136719
+ForkProcess-207-MainThread-2019-09-12 13:19:19,949-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:19,953-INFO:::  exec_time : 0.09310317039489746
+ForkProcess-210-MainThread-2019-09-12 13:19:19,953-INFO:::  exec_time : 0.08892202377319336
+ForkProcess-203-MainThread-2019-09-12 13:19:19,957-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:19,956-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,000-INFO:::  exec_time : 0.04209589958190918
+ForkProcess-204-MainThread-2019-09-12 13:19:20,005-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:20,000-INFO:::  exec_time : 0.09104204177856445
+ForkProcess-201-MainThread-2019-09-12 13:19:20,005-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,010-INFO:::  start 36380, end 36720, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:20,050-INFO:::  exec_time : 0.09192299842834473
+ForkProcess-206-MainThread-2019-09-12 13:19:20,071-INFO:::  exec_time : 0.09482026100158691
+ForkProcess-206-MainThread-2019-09-12 13:19:20,074-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:20,085-INFO:::  exec_time : 0.03463172912597656
+ForkProcess-208-MainThread-2019-09-12 13:19:20,089-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:20,094-INFO:::  start 36720, end 37060, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:20,081-INFO:::  exec_time : 0.09036493301391602
+ForkProcess-202-MainThread-2019-09-12 13:19:20,084-INFO:::  deleting docs : 102
+ForkProcess-205-MainThread-2019-09-12 13:19:20,087-INFO:::  exec_time : 0.09678888320922852
+ForkProcess-205-MainThread-2019-09-12 13:19:20,091-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:20,116-INFO:::  exec_time : 0.10372114181518555
+ForkProcess-207-MainThread-2019-09-12 13:19:20,136-INFO:::  exec_time : 0.08718371391296387
+ForkProcess-210-MainThread-2019-09-12 13:19:20,140-INFO:::  exec_time : 0.08479809761047363
+ForkProcess-203-MainThread-2019-09-12 13:19:20,152-INFO:::  exec_time : 0.09699678421020508
+ForkProcess-209-MainThread-2019-09-12 13:19:20,153-INFO:::  exec_time : 0.03642702102661133
+ForkProcess-209-MainThread-2019-09-12 13:19:20,157-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:20,158-INFO:::  start 37400, end 37740, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:20,160-INFO:::  start 37740, end 38080, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:20,162-INFO:::  start 37060, end 37400, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:20,183-INFO:::  exec_time : 0.08005213737487793
+ForkProcess-203-MainThread-2019-09-12 13:19:20,172-INFO:::  start 38080, end 38420, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:20,200-INFO:::  exec_time : 0.08578896522521973
+ForkProcess-201-MainThread-2019-09-12 13:19:20,203-INFO:::  start 38420, end 38760, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:20,202-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:20,256-INFO:::  exec_time : 0.08839106559753418
+ForkProcess-202-MainThread-2019-09-12 13:19:20,279-INFO:::  start 38760, end 39100, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:20,282-INFO:::  exec_time : 0.09924888610839844
+ForkProcess-208-MainThread-2019-09-12 13:19:20,285-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:20,340-INFO:::  exec_time : 0.09520411491394043
+ForkProcess-203-MainThread-2019-09-12 13:19:20,346-INFO:::  exec_time : 0.08942699432373047
+ForkProcess-210-MainThread-2019-09-12 13:19:20,348-INFO:::  exec_time : 0.10344481468200684
+ForkProcess-209-MainThread-2019-09-12 13:19:20,337-INFO:::  exec_time : 0.09073877334594727
+ForkProcess-209-MainThread-2019-09-12 13:19:20,341-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,380-INFO:::  exec_time : 0.07892394065856934
+ForkProcess-207-MainThread-2019-09-12 13:19:20,378-INFO:::  exec_time : 0.037750244140625
+ForkProcess-207-MainThread-2019-09-12 13:19:20,382-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:20,383-INFO:::  exec_time : 0.0359039306640625
+ForkProcess-210-MainThread-2019-09-12 13:19:20,382-INFO:::  exec_time : 0.0342867374420166
+ForkProcess-203-MainThread-2019-09-12 13:19:20,386-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:20,386-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:20,392-INFO:::  exec_time : 0.09145307540893555
+ForkProcess-207-MainThread-2019-09-12 13:19:20,388-INFO:::  start 37400, end 37740, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:20,392-INFO:::  start 37740, end 38080, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:20,399-INFO:::  start 39100, end 39440, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:20,392-INFO:::  start 38080, end 38420, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:20,427-INFO:::  exec_time : 0.03427004814147949
+ForkProcess-201-MainThread-2019-09-12 13:19:20,430-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:20,435-INFO:::  start 38420, end 38760, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:20,460-INFO:::  exec_time : 0.07726097106933594
+ForkProcess-202-MainThread-2019-09-12 13:19:20,459-INFO:::  exec_time : 0.09556889533996582
+ForkProcess-208-MainThread-2019-09-12 13:19:20,482-INFO:::  start 39440, end 39780, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:20,497-INFO:::  exec_time : 0.03714799880981445
+ForkProcess-202-MainThread-2019-09-12 13:19:20,500-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:20,506-INFO:::  start 38760, end 39100, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:20,532-INFO:::  exec_time : 0.09342098236083984
+ForkProcess-209-MainThread-2019-09-12 13:19:20,552-INFO:::  start 39780, end 40120, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:20,572-INFO:::  exec_time : 0.09122920036315918
+ForkProcess-207-MainThread-2019-09-12 13:19:20,576-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,600-INFO:::  exec_time : 0.10033798217773438
+ForkProcess-210-MainThread-2019-09-12 13:19:20,595-INFO:::  exec_time : 0.09603118896484375
+ForkProcess-210-MainThread-2019-09-12 13:19:20,600-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:20,600-INFO:::  exec_time : 0.10211467742919922
+ForkProcess-203-MainThread-2019-09-12 13:19:20,603-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,639-INFO:::  exec_time : 0.03839707374572754
+ForkProcess-204-MainThread-2019-09-12 13:19:20,643-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:20,626-INFO:::  exec_time : 0.10074806213378906
+ForkProcess-201-MainThread-2019-09-12 13:19:20,630-INFO:::  deleting docs : 102
+ForkProcess-204-MainThread-2019-09-12 13:19:20,649-INFO:::  start 39100, end 39440, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:20,680-INFO:::  exec_time : 0.10566997528076172
+ForkProcess-202-MainThread-2019-09-12 13:19:20,714-INFO:::  exec_time : 0.10358715057373047
+ForkProcess-202-MainThread-2019-09-12 13:19:20,719-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:20,751-INFO:::  exec_time : 0.09902095794677734
+ForkProcess-207-MainThread-2019-09-12 13:19:20,780-INFO:::  exec_time : 0.09869003295898438
+ForkProcess-209-MainThread-2019-09-12 13:19:20,780-INFO:::  exec_time : 0.028026819229125977
+ForkProcess-209-MainThread-2019-09-12 13:19:20,784-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:20,789-INFO:::  exec_time : 0.09507584571838379
+ForkProcess-203-MainThread-2019-09-12 13:19:20,797-INFO:::  exec_time : 0.07916808128356934
+ForkProcess-207-MainThread-2019-09-12 13:19:20,800-INFO:::  start 40120, end 40460, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:20,789-INFO:::  start 39780, end 40120, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:20,808-INFO:::  start 40460, end 40800, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:20,815-INFO:::  start 40800, end 41140, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:20,888-INFO:::  exec_time : 0.09573936462402344
+ForkProcess-202-MainThread-2019-09-12 13:19:20,896-INFO:::  exec_time : 0.08349394798278809
+ForkProcess-206-MainThread-2019-09-12 13:19:20,910-INFO:::  start 41140, end 41480, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:20,921-INFO:::  exec_time : 0.24026894569396973
+ForkProcess-208-MainThread-2019-09-12 13:19:20,927-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:20,933-INFO:::  start 39440, end 39780, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:20,916-INFO:::  start 41480, end 41820, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:20,977-INFO:::  exec_time : 0.08924126625061035
+ForkProcess-209-MainThread-2019-09-12 13:19:20,973-INFO:::  exec_time : 0.08508801460266113
+ForkProcess-209-MainThread-2019-09-12 13:19:20,977-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:21,016-INFO:::  exec_time : 0.03878498077392578
+ForkProcess-207-MainThread-2019-09-12 13:19:21,020-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:21,025-INFO:::  exec_time : 0.09164905548095703
+ForkProcess-207-MainThread-2019-09-12 13:19:21,026-INFO:::  start 40120, end 40460, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:21,048-INFO:::  exec_time : 0.08891701698303223
+ForkProcess-203-MainThread-2019-09-12 13:19:21,117-INFO:::  start 42500, end 42840, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:21,089-INFO:::  start 41820, end 42160, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:21,107-INFO:::  start 42160, end 42500, num of items 340
+ForkProcess-201-MainThread-2019-09-12 13:19:21,127-INFO:::  start 42840, end 43180, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:21,128-INFO:::  start 43520, end 43860, num of items 340
+ForkProcess-206-MainThread-2019-09-12 13:19:21,127-INFO:::  start 43180, end 43520, num of items 340
+ForkProcess-202-MainThread-2019-09-12 13:19:21,147-INFO:::  start 43860, end 44200, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:21,155-INFO:::  start 44200, end 44540, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:21,159-INFO:::  start 44540, end 44880, num of items 340
+ForkProcess-203-MainThread-2019-09-12 13:19:21,306-INFO:::  exec_time : 0.1048729419708252
+ForkProcess-204-MainThread-2019-09-12 13:19:21,320-INFO:::  exec_time : 0.0940389633178711
+ForkProcess-209-MainThread-2019-09-12 13:19:21,320-INFO:::  exec_time : 0.11134219169616699
+ForkProcess-206-MainThread-2019-09-12 13:19:21,323-INFO:::  exec_time : 0.09798789024353027
+ForkProcess-210-MainThread-2019-09-12 13:19:21,330-INFO:::  exec_time : 0.12184429168701172
+ForkProcess-201-MainThread-2019-09-12 13:19:21,333-INFO:::  exec_time : 0.10924410820007324
+ForkProcess-202-MainThread-2019-09-12 13:19:21,337-INFO:::  exec_time : 0.09593796730041504
+ForkProcess-203-MainThread-2019-09-12 13:19:21,346-INFO:::  exec_time : 0.03936195373535156
+ForkProcess-203-MainThread-2019-09-12 13:19:21,350-INFO:::  Upserting docs : 68
+ForkProcess-208-MainThread-2019-09-12 13:19:21,348-INFO:::  exec_time : 0.09464192390441895
+ForkProcess-209-MainThread-2019-09-12 13:19:21,359-INFO:::  exec_time : 0.03817605972290039
+ForkProcess-209-MainThread-2019-09-12 13:19:21,362-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:21,359-INFO:::  exec_time : 0.10650300979614258
+ForkProcess-204-MainThread-2019-09-12 13:19:21,362-INFO:::  exec_time : 0.042040109634399414
+ForkProcess-204-MainThread-2019-09-12 13:19:21,366-INFO:::  Upserting docs : 68
+ForkProcess-201-MainThread-2019-09-12 13:19:21,364-INFO:::  exec_time : 0.03064870834350586
+ForkProcess-201-MainThread-2019-09-12 13:19:21,368-INFO:::  Upserting docs : 68
+ForkProcess-206-MainThread-2019-09-12 13:19:21,367-INFO:::  exec_time : 0.043157100677490234
+ForkProcess-206-MainThread-2019-09-12 13:19:21,370-INFO:::  Upserting docs : 68
+ForkProcess-203-MainThread-2019-09-12 13:19:21,356-INFO:::  start 42500, end 42840, num of items 340
+ForkProcess-210-MainThread-2019-09-12 13:19:21,370-INFO:::  exec_time : 0.03959298133850098
+ForkProcess-210-MainThread-2019-09-12 13:19:21,374-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:21,373-INFO:::  exec_time : 0.0357661247253418
+ForkProcess-202-MainThread-2019-09-12 13:19:21,376-INFO:::  Upserting docs : 68
+ForkProcess-210-MainThread-2019-09-12 13:19:21,380-INFO:::  start 41820, end 42160, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:21,372-INFO:::  start 43520, end 43860, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:21,385-INFO:::  exec_time : 0.03654289245605469
+ForkProcess-201-MainThread-2019-09-12 13:19:21,373-INFO:::  start 42840, end 43180, num of items 340
+ForkProcess-209-MainThread-2019-09-12 13:19:21,369-INFO:::  start 42160, end 42500, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:21,391-INFO:::  exec_time : 0.031658172607421875
+ForkProcess-206-MainThread-2019-09-12 13:19:21,376-INFO:::  start 43180, end 43520, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:21,388-INFO:::  Upserting docs : 68
+ForkProcess-207-MainThread-2019-09-12 13:19:21,394-INFO:::  Upserting docs : 68
+ForkProcess-202-MainThread-2019-09-12 13:19:21,382-INFO:::  start 43860, end 44200, num of items 340
+ForkProcess-208-MainThread-2019-09-12 13:19:21,394-INFO:::  start 44200, end 44540, num of items 340
+ForkProcess-207-MainThread-2019-09-12 13:19:21,400-INFO:::  start 44540, end 44880, num of items 340
+ForkProcess-204-MainThread-2019-09-12 13:19:21,527-INFO:::  exec_time : 0.07951998710632324
+ForkProcess-204-MainThread-2019-09-12 13:19:21,531-INFO:::  deleting docs : 102
+ForkProcess-203-MainThread-2019-09-12 13:19:21,526-INFO:::  exec_time : 0.08055901527404785
+ForkProcess-203-MainThread-2019-09-12 13:19:21,530-INFO:::  deleting docs : 102
+ForkProcess-209-MainThread-2019-09-12 13:19:21,534-INFO:::  exec_time : 0.08143210411071777
+ForkProcess-210-MainThread-2019-09-12 13:19:21,538-INFO:::  exec_time : 0.08353805541992188
+ForkProcess-209-MainThread-2019-09-12 13:19:21,538-INFO:::  deleting docs : 102
+ForkProcess-210-MainThread-2019-09-12 13:19:21,541-INFO:::  deleting docs : 102
+ForkProcess-206-MainThread-2019-09-12 13:19:21,538-INFO:::  exec_time : 0.08441591262817383
+ForkProcess-206-MainThread-2019-09-12 13:19:21,541-INFO:::  deleting docs : 102
+ForkProcess-201-MainThread-2019-09-12 13:19:21,540-INFO:::  exec_time : 0.08549284934997559
+ForkProcess-201-MainThread-2019-09-12 13:19:21,543-INFO:::  deleting docs : 102
+ForkProcess-202-MainThread-2019-09-12 13:19:21,547-INFO:::  exec_time : 0.082366943359375
+ForkProcess-202-MainThread-2019-09-12 13:19:21,551-INFO:::  deleting docs : 102
+ForkProcess-208-MainThread-2019-09-12 13:19:21,564-INFO:::  exec_time : 0.08384490013122559
+ForkProcess-208-MainThread-2019-09-12 13:19:21,568-INFO:::  deleting docs : 102
+ForkProcess-207-MainThread-2019-09-12 13:19:21,589-INFO:::  exec_time : 0.09708285331726074
+ForkProcess-207-MainThread-2019-09-12 13:19:21,592-INFO:::  deleting docs : 102

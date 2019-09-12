@@ -1,9 +1,8 @@
 import random
 import string
-import logging
-from datetime import datetime
-
-import constants
+from CommonUtil import constants, util
+from schemagenerator import SchemaGenerator
+from couchbase_ops.clustersetup import ClusterSetup
 
 
 class IndexGenerator():
@@ -22,26 +21,10 @@ class IndexGenerator():
     # 7. Deferred ?
 
     def __init__(self, schema, num_index_nodes):
-        self.log = self.initialize_logger("index-generator")
+        self.log = util.initialize_logger("index-generator")
         self.num_index_nodes = int(num_index_nodes)
         self.schema = schema
         self.generate_index_definitions()
-
-    def initialize_logger(self, logger_name):
-        logger = logging.getLogger(logger_name)
-        logger.setLevel(logging.DEBUG)
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-        formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-        ch.setFormatter(formatter)
-        logger.addHandler(ch)
-        timestamp = str(datetime.now().strftime('%Y%m%dT_%H%M%S'))
-        fh = logging.FileHandler("./{0}-{1}.log".format(logger_name, timestamp))
-        fh.setFormatter(formatter)
-        logger.addHandler(fh)
-
-        return logger
 
     def generate_index_definitions(self):
 
@@ -197,16 +180,6 @@ class IndexGenerator():
         self.log.info("Index List :")
         self.log.info(index_schema_dict)
 
-
-
-
-
-
-
-
-
-
-
     def generate_docs(self, doc_key_length, fields):
 
         json_doc = {}
@@ -214,13 +187,14 @@ class IndexGenerator():
         skip_field = False
         doc_key = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in range(doc_key_length))
         json_doc[doc_key] = {}
+        field_value = None
 
         for field in fields:
             field_data_type = field["field_data_type"]
             if field_data_type.lower() == "boolean":
                 field_value = random.choice([True, False])
             elif field_data_type.lower() == "alphanumeric":
-                field_value = ''.join(random.choice(string.letters + string.digits) for _ in range(field["field_value_length"]))
+                field_value = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(field["field_value_length"]))
             elif field_data_type.lower() == "integer":
                 range_start = 10 ** (field["field_value_length"] - 1)
                 range_end = (10 ** field["field_value_length"]) - 1
@@ -231,7 +205,7 @@ class IndexGenerator():
                 range_end = (10 ** field["field_value_length"]) - 1
                 field_value = round(random.uniform(range_start, range_end), precision)
             elif field_data_type.lower() == "letters":
-                field_value = ''.join(random.choice(string.letters) for _ in range(field["field_value_length"]))
+                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
             elif field_data_type.lower() == "string":
                 field_value = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in
                                       range(field["field_value_length"]))
@@ -241,7 +215,7 @@ class IndexGenerator():
             elif field_data_type.lower() == "null":
                 field_value = None
             elif field_data_type.lower() == "missing":
-                field_value = ''.join(random.choice(string.letters) for _ in range(field["field_value_length"]))
+                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
                 skip_field = random.choice([True, False])
             else:
                 self.log.info("unknown data type")
@@ -257,8 +231,10 @@ class IndexGenerator():
         return json_doc
 
 if __name__ == '__main__':
-    schema = SchemaGenerator(10).get_schema()
-    IndexGenerator(schema)
+    schema = SchemaGenerator().get_schema()
+    clustersetup = ClusterSetup()
+    num_index_nodes = clustersetup.get_num_index_nodes()
+    IndexGenerator(schema, num_index_nodes)
 
 
 
