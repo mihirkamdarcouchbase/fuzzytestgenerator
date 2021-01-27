@@ -42,7 +42,7 @@ class ClusterSetup:
                 executor.submit(util.execute_command, download_and_install_build_cmd, server, constants.SERVERS_SSH_USERNAME,
                                  constants.SERVERS_SSH_PASSWORD, self.log)
 
-        time.sleep(10)
+        time.sleep(20)
         # check if installed correctly
 
         # initialize cluster

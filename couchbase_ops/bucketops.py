@@ -17,7 +17,7 @@ class BucketOps:
         self.spec = "couchbase://" + constants.SERVERS[0]
         self.user = "Administrator"
         self.password = "password"
-        self.timeout = 600
+        self.timeout = 60000
         self.bucket_connection = None
         self.log = logging.getLogger()
         self.rest_master_conn = RestUtil(constants.SERVERS[0], constants.MASTER_PORT)

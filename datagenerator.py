@@ -1,4 +1,3 @@
-import concurrent.futures
 import logging.config
 import random
 import string
@@ -9,7 +8,9 @@ from CommonUtil import constants, util
 from couchbase_ops.bucketops import BucketOps
 from schemagenerator import SchemaGenerator
 import copy
-
+from datetime import datetime
+import time
+import concurrent
 
 class DataGenerator:
 
@@ -36,39 +37,44 @@ class DataGenerator:
 
         json_doc[doc_key] = {}
 
+        #print(use_predefined_value)
+
         for field in self.schema_fields:
-            field_data_type = field["field_data_type"]
-            field_value = ""
-            if field_data_type.lower() == "boolean":
-                field_value = random.choice([True, False])
-            elif field_data_type.lower() == "alphanumeric":
-                field_value = ''.join(
-                    random.choice(string.ascii_letters + string.digits) for _ in range(field["field_value_length"]))
-            elif field_data_type.lower() == "integer":
-                range_start = 10 ** (field["field_value_length"] - 1)
-                range_end = (10 ** field["field_value_length"]) - 1
-                field_value = random.randint(range_start, range_end)
-            elif field_data_type.lower() == "float":
-                precision = random.randint(1, 8)
-                range_start = 10 ** (field["field_value_length"] - 1)
-                range_end = (10 ** field["field_value_length"]) - 1
-                field_value = round(random.uniform(range_start, range_end), precision)
-            elif field_data_type.lower() == "letters":
-                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
-            elif field_data_type.lower() == "string":
-                field_value = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in
-                                      range(field["field_value_length"]))
-            elif field_data_type.lower() == "spl_chars":
-                field_value = ''.join(random.choice(string.whitespace + string.punctuation + '!@#$%^&*()_') for _ in
-                                      range(field["field_value_length"]))
-            # elif field_data_type.lower() == "date":
-            elif field_data_type.lower() == "null":
-                field_value = None
-            elif field_data_type.lower() == "missing":
-                field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
-                skip_field = random.choice([True, False])
+            if field["can_aggregate"]:
+                field_value = random.choice(field["predefined_values"])
             else:
-                logging.info("unknown data type")
+                field_data_type = field["field_data_type"]
+                field_value = ""
+                if field_data_type.lower() == "boolean":
+                    field_value = random.choice([True, False])
+                elif field_data_type.lower() == "alphanumeric":
+                    field_value = ''.join(
+                        random.choice(string.ascii_letters + string.digits) for _ in range(field["field_value_length"]))
+                elif field_data_type.lower() == "integer":
+                    range_start = 10 ** (field["field_value_length"] - 1)
+                    range_end = (10 ** field["field_value_length"]) - 1
+                    field_value = random.randint(range_start, range_end)
+                elif field_data_type.lower() == "float":
+                    precision = random.randint(1, 8)
+                    range_start = 10 ** (field["field_value_length"] - 1)
+                    range_end = (10 ** field["field_value_length"]) - 1
+                    field_value = round(random.uniform(range_start, range_end), precision)
+                elif field_data_type.lower() == "letters":
+                    field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
+                elif field_data_type.lower() == "string":
+                    field_value = ''.join(random.choice(string.printable + '!@#$%^&*()_') for _ in
+                                          range(field["field_value_length"]))
+                elif field_data_type.lower() == "spl_chars":
+                    field_value = ''.join(random.choice(string.whitespace + string.punctuation + '!@#$%^&*()_') for _ in
+                                          range(field["field_value_length"]))
+                # elif field_data_type.lower() == "date":
+                elif field_data_type.lower() == "null":
+                    field_value = None
+                elif field_data_type.lower() == "missing":
+                    field_value = ''.join(random.choice(string.ascii_letters) for _ in range(field["field_value_length"]))
+                    skip_field = random.choice([True, False])
+                else:
+                    logging.info("unknown data type")
 
             if not skip_field:
                 doc[field["field_name"]] = field_value
@@ -167,13 +173,14 @@ class Batch(KeepRefs):
 
         self.bucket_ops.create_connection(constants.BUCKET_NAME)
         self.bucket_ops.delete_items(docs_to_delete.keys())
-        #self.bucket_ops.close_connection()
+        self.bucket_ops.close_connection()
 
     def upsert_batch(self, docs_to_upsert):
         self.gen_docs(docs_to_upsert)
         self.print_batch()
         self.bucket_ops.create_connection(constants.BUCKET_NAME)
         self.bucket_ops.upsert_items(self.docs_to_upsert)
+        self.bucket_ops.close_connection()
 
     def insert_batch(self):
         num_docs_with_expiry = int(self.batch_meta["EXPIRY"]["DOCS"] * self.batch_size)
@@ -182,9 +189,10 @@ class Batch(KeepRefs):
         self.gen_docs()
         self.print_batch()
         self.bucket_ops.create_connection(constants.BUCKET_NAME)
+        print(dict(list(self.items.items())[:num_docs_with_expiry]))
         self.bucket_ops.upsert_items(dict(list(self.items.items())[:num_docs_with_expiry]), expiry_duration)
         self.bucket_ops.upsert_items(dict(list(self.items.items())[num_docs_with_expiry:]))
-        # self.bucket_ops.close_connection()
+        self.bucket_ops.close_connection()
 
 
 class IntiateDataGenerator:
@@ -195,8 +203,8 @@ class IntiateDataGenerator:
         self.num_items = num_items
         self.log = util.initialize_logger("data-generator")
 
-    def initiate(self):
-        start_document = 0
+    def initiate(self, start_doc):
+        start_document = start_doc
         batches = []
         for i in range(start_document, self.num_items, self.batch_size):
             if i + self.batch_size > start_document + self.num_items:
@@ -217,8 +225,32 @@ class IntiateDataGenerator:
             executor.shutdown(wait=True)
 
 
+def insert_batch_temp():
+    bucket_ops = BucketOps()
+    bucket_ops.create_connection("travel-sample")
+    for i in range(62750, 70751):
+        item = {"test_" + str(i): {
+            "callsign": "Rainbow",
+            "country": "United States",
+            "iata": "RN",
+            "icao": "RAB",
+            "id": i,
+            "name": "Rainbow Air (RAI)",
+            "type": "airline",
+            "long_num": random.choice([9223372036854775908])
+        }}
+        bucket_ops.upsert_items(item)
+        print("====================")
+        print(str(item))
+        print(str(datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%f')))
+        print("====================")
+        time.sleep(1)
+
+
+
 if __name__ == '__main__':
-    schema = SchemaGenerator().get_schema()
-    batch_meta = {"random_key": False, "schema": schema, "UPSERT": {"DOCS": 0.2, "RANDOM": False}, "DELETE":
-        {"DOCS": 0.3, "RANDOM": False}, "EXPIRY": {"DOCS": 0.3, "TIME": 100}}
-    IntiateDataGenerator(10000000, batch_meta).initiate()
+    #schema = SchemaGenerator().get_schema()
+    #batch_meta = {"predefined_values" : 0.2, "random_key": False, "schema": schema, "UPSERT": {"DOCS": 0.2, "RANDOM": False}, "DELETE":
+    #    {"DOCS": 0.3, "RANDOM": False}, "EXPIRY": {"DOCS": 0.3, "TIME": 100}}
+    #IntiateDataGenerator(1000, batch_meta).initiate()
+    insert_batch_temp()
